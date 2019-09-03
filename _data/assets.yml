@@ -1,0 +1,19 @@
+css:
+   - /assets/css/bootstrap.css
+   - /assets/css/style.css
+   - /assets/css/swiper.css
+   - /assets/css/dark.css
+   - /assets/css/font-icons.css
+   - /assets/css/animate.css
+   - /assets/css/magnific-popup.css
+   - /assets/css/responsive.css
+   - https://use.fontawesome.com/releases/v5.2.0/css/all.css
+   - /assets/css/colors.css
+   - /assets/css/twentytwenty.css
+
+js:
+  - /assets/js/jquery.js
+  - /assets/js/plugins.js
+  - /assets/js/functions.js
+  - /assets/js/jquery.twentytwenty.js
+  - /assets/js/jquery.event.move.js

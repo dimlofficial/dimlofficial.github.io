@@ -1,0 +1,172 @@
+indoor:
+    - label: Ware House
+      index: 1
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/01.%20Warehouse.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/01.%20Warehouse.zip
+      num1: 20
+      num2: 1
+
+    - label: Cafe
+      index: 2
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/02.%20Cafe.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/02.%20Cafe.egg
+      num1: 15
+      num2: 5
+
+    - label: Class Room
+      index: 3
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/03.%20Classroom.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/03.%20Classroom.zip
+      num1: 66
+      num2: 6
+
+    - label: Church
+      index: 4
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/04.%20Church.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/04.%20Church.zip
+      num1: 9
+      num2: 6
+
+    - label: Computer Room
+      index: 5
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/05.%20computer%20Room.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/05.%20Computer%20Room.zip
+      num1: 8
+      num2: 4
+
+    - label: Meeting Room
+      index: 6
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/06.%20Meeting%20Room.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/06.%20Meeting%20Room.zip
+      num1: 19
+      num2: 5
+
+    - label: Library
+      index: 7
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/07.%20Library.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/07.%20Library.zip
+      num1: 10
+      num2: 4
+
+    - label: Labatory
+      index: 8
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/08.%20Laboratory.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/08.%20Laboratory.zip
+      num1: 18
+      num2: 4
+
+    - label: Bookstore
+      index: 9
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/09.%20Book%20Store.egg
+      link2:
+      num1: 10
+      num2: 0
+
+    - label: Corridor
+      index: 10
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/10.%20Corridor.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/10.%20Corridor.zip
+      num1: 21
+      num2: 5
+
+    - label: BedRoom
+      index: 11
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/11.%20Bedroom.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/11.%20Bedroom.zip
+      num1: 16
+      num2: 4
+
+    - label: Livingroom
+      index: 12
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/12.%20Livingroom.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/12.%20Livingroom.zip
+      num1: 42
+      num2: 6
+
+    - label: Kitchen
+      index: 13
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/13.%20Kitchen.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/13.%20Kitchen.zip
+      num1: 9
+      num2: 4
+
+    - label: BathRoom
+      index: 14
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/14.%20Bathroom.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/14.%20Bathroom.zip
+      num1: 1
+      num2: 4
+
+    - label: Restaunt
+      index: 15
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/15.%20Restaurant.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/15.%20Restaurant.zip
+      num1: 20
+      num2: 2
+
+    - label: Billiard
+      index: 16
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/16.%20Billiard%20Hall.egg
+      link2:
+      num1: 1
+      num2: 0
+
+    - label:  Hospital
+      index: 17
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/17.%20Hospital.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/17.%20Hospital.zip
+      num1: 2
+      num2: 1
+
+    - label:  Store
+      index: 18
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/18.%20Store.egg
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/18.%20Store.zip
+      num1: 1
+      num2: 1
+
+outdoor:
+    - label: Brook
+      index: 1
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/Outdoor1/brook.zip
+      num1: 1
+
+    - label: Building
+      index: 2
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/Outdoor1/building.zip
+      num1: 1
+
+    - label: Constrction
+      index: 3
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/Outdoor1/construction.zip
+      num1: 1
+
+    - label: Driveway
+      index: 4
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/Outdoor1/Driveway.zip
+      num1: 1
+
+    - label: Field
+      index: 5
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/Outdoor1/field.zip
+      num1: 1
+
+    - label: Overpass
+      index: 6
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/Outdoor1/overpass.zip
+      num1: 1
+
+    - label: Park
+      index: 7
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/Outdoor1/park.zip
+      num1: 1
+
+    - label: Street
+      index: 8
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/Outdoor1/street.zip
+      num1: 1
+
+    - label: Trail
+      index: 9
+      link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/Outdoor1/trail.zip
+      num1: 1
