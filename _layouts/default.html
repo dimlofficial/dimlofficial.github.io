@@ -1,7 +1,64 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+
+<!-- Top menu -->
+<div style="margin:0px auto; padding:0; width:1010px;">
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td><img src="/images/topbanner.png" border=0  usemap="#MenuLink"></td></tr>
+
+{% if page.url=="/" %}
+  <tr><td valign=top><img width=1009 src="/images/main_cover.png" border=0></td></tr>
+{% endif %}
+</table>
+</div>
+<!-- Top menu -->
+{% include head.html %}
+
+<div id="wrap">
+
+<!-- Contents -->
+	<div id="content" style="width: 750px;">
 
 {{ content }}
+
+	</div>
+<!-- Contents -->
+<!-- Sidebar -->
+{% include sidebar.html %}
+<!-- Sidebar -->
+
+
+<!-- Footer -->
+
+{% include footer.html %}
+
+<!-- Footer -->
+
+
+</div>
+
+<map name="MenuLink">
+<area shape="rect" coords="201, 66, 292, 89" href="/introduction" target="_top" alt="Introduction">
+<area shape="rect" coords="311, 66, 379, 89" href="/research" target="_top" alt="Research">
+<area shape="rect" coords="398, 66, 452, 89" href="/professor" target="_top" alt="People">
+<area shape="rect" coords="473, 66, 532, 89" href="/lecture" target="_top" alt="Lecture">
+<area shape="rect" coords="552, 66, 638, 89" href="/pub_intljournal" target="_top" alt="Publications">
+<area shape="rect" coords="661, 66, 710, 89" href="/photo" target="_top" alt="Photo">
+<area shape="rect" coords="731, 66, 794, 89" href="/contact" target="_top" alt="Contact">
+<area shape="rect" coords="29, 10, 452, 58" href="/" target="_top">
+</map>
+
+<!-- <map name="MenuLink">
+<area shape="rect" coords="201, 66, 292, 89" href="introduction" target="_top" alt="Introduction">
+<area shape="rect" coords="311, 66, 379, 89" href="research" target="_top" alt="Research">
+<area shape="rect" coords="398, 66, 452, 89" href="professor" target="_top" alt="People">
+<area shape="rect" coords="473, 66, 532, 89" href="lecture" target="_top" alt="Lecture">
+<area shape="rect" coords="552, 66, 638, 89" href="pub_intljournal" target="_top" alt="Publications">
+<area shape="rect" coords="661, 66, 710, 89" href="photo" target="_top" alt="Photo">
+<area shape="rect" coords="731, 66, 794, 89" href="contact" target="_top" alt="Contact">
+<area shape="rect" coords="29, 10, 452, 58" href="index" target="_top">
+</map> -->
 
 </body>
 </html>
