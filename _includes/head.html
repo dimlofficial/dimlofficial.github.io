@@ -1,28 +1,17 @@
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    {% if site.google_analytics %}
-    {% include analytics.html %}
-    {% endif %}
+	<meta http-equiv="content-type" content="text/html; charset=euc-kr" />
+	<meta name="description" content="Digital Image Media laboratory" />
+	<meta name="keywords" content="diml, yonsei, image processing, 3D"/>
+	<meta name="author" content="Eungbean Lee"/>
+	<link rel="stylesheet" type="text/css" href="1024px.css" title="1024px" media="screen,projection" />
+	<!--link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"-->
+	<title>Digital Image Media Lab</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+<style>
+.mySlides {display:none;}
+.title:hover {background-color:#BDBDBD;}
+</style>
 
-    <!-- Stylesheets
-    ============================================= -->
-    {% for path in site.data.assets.css %}
 
-    {%- if path contains '://' -%}
-    {%- assign href = path -%}
-    {%- else -%}
-    {%- assign href = path -%}
-    {%- endif -%}
-    <link rel="stylesheet" href="{{ href }}">
-    {% endfor %}
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 </head>
-

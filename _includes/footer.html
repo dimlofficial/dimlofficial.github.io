@@ -1,125 +1,59 @@
-<footer id="footer" class="dark">
+<div id="footer">
+  <p style="text-align: center">
+  <a href="index.html">Home</a> |
+  <a href="introduction.html">Introduction</a> |
+  <a href="research.html">Research</a> |
+  <a href="professor.html">People</a> |
+  <a href="lecture.html">Lecture</a> |
+  <a href="pub_intljournal.html">Publications</a> |
+  <a href="photo.html">Photo</a> |
+  <a href="dataset.html">Dataset</a> |
+  <a href="contact.html">Contact</a>
+  </p>
 
-    <!-- Copyrights
-    ============================================= -->
-    <div id="copyrights">
-
-        <div class="container clearfix">
-
-            <div class="col_full center">
-                This work was supported by Institute for Information and communications Technology Promotion (IITP) grant funded by the Korea government (MSIP)<br>
-                (No. R0115-16-1007, High quality 2D-to-Multiview contents generation from large-scale-RGB+D database)<br>
-                <div class="copyright-links"><a data-toggle="modal" data-target="#myModal">Terms of Use</a> / Built by <a href="https://eungbean.github.io">Eungbean Lee</a> / <a href="http://diml.yonsei.ac.kr/DIML_rgbd_dataset/">Classic</a></div>
-                <!-- Modal -->
-                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-body">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h4 class="modal-title" id="myModalLabel">Term of Use</h4>
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                </div>
-                                <div class="modal-body">
-                                    <h4>Copy Right</h4>
-                                    <p>All datasets and benchmarks on this page are <strong>copyright by us.</strong>
-                                        This means that you must attribute the work in the manner specified by the authors.
-                                        You may <strong>not</strong> use this work for commercial purposes.
-                                        You may distribute the resulting work only under the same license.</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div><!-- #copyrights end -->
-
-</footer><!-- #footer end -->
+  <p>
+  <img src="images/diml_logo1.png"><br>
+  &copy; 2012
+  <a href="http://diml.yonsei.ac.kr">Digital Image Media Lab</a> @ <a href="http://www.yonsei.ac.kr">Yonsei University</a>
+  </p>
+</div>
 
 
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29578563-1']);
+  _gaq.push(['_trackPageview']);
 
-
-<!-- Go To Top
-	============================================= -->
-<div id="gotoTop" class="icon-angle-up"></div>
-
-<!-- External JavaScripts
-============================================= -->
-{% for path in site.data.assets.js %}
-
-{%- if path contains '://' -%}
-{%- assign src = path -%}
-{%- else -%}
-{%- assign src = path -%}
-{%- endif -%}
-
-<script src="{{ src }}"></script>
-
-
-{% endfor %}
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139401041-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-139401041-1');
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 </script>
 
 <script>
-    (function(w,d,s,g,js,fjs){
-        g=w.gapi||(w.gapi={});g.analytics={q:[],ready:function(cb){this.q.push(cb)}};
-        js=d.createElement(s);fjs=d.getElementsByTagName(s)[0];
-        js.src='https://apis.google.com/js/platform.js';
-        fjs.parentNode.insertBefore(js,fjs);js.onload=function(){g.load('analytics')};
-    }(window,document,'script'));
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104159868-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
-
 <script>
-    $(function(){
-        $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
-        $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
-    });
-</script>
+	var myIndex = 0;
+	carousel();
 
-<script src="https://maps.google.com/maps/api/js?key=AIzaSyAm7guc0Wkv3_mX9se0GP-qgA7nVPoChlQ"></script>
-<script src="/assets/js/jquery.gmap.js"></script>
-
-<script>
-
-    jQuery('#google-map').gMap({
-        latitude: 37.561948,
-        longitude: 126.935074,
-        maptype: 'ROADMAP',
-        zoom: 15,
-        markers: [
-            {
-                latitude: 37.561948,
-                longitude: 126.935074,
-                html: '<div style="width: 300px;" data-animate="bounceIn"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>DIML.</span></h4><p class="nobottommargin">Our mission is to help people with <strong>computer vision technology</strong>.</div>',
-                icon: {
-                    image: "images/icons/map-icon-red.png",
-                    iconsize: [32, 39],
-                    iconanchor: [13,39]
-                }
-            }
-        ],
-        doubleclickzoom: false,
-        controls: {
-            panControl: true,
-            zoomControl: true,
-            mapTypeControl: true,
-            scaleControl: false,
-            streetViewControl: false,
-            overviewMapControl: false
-        }
-    });
-
+	function carousel() {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";
+		}
+		myIndex++;
+		if (myIndex > x.length) {myIndex = 1}
+		x[myIndex-1].style.display = "block";
+		setTimeout(carousel, 3000); // Change image every 2 seconds
+	}
 </script>
