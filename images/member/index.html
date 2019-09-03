@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=euc-kr" />
+	<meta name="description" content="Digital Image Media laboratory" />
+	<meta name="keywords" content="diml, yonsei, image processing, 3D"/>
+	<meta name="author" content="Sunghwan Choi"/>
+	<link rel="stylesheet" type="text/css" href="1024px.css" title="1024px" media="screen,projection" />
+	<!--link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"-->
+	<title>Digital Image Media Lab</title>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29578563-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<style>
+.mySlides {display:none;}
+.title:hover {background-color:#BDBDBD;}
+</style>
+
+	
+</head>
+
+<body>
+<!--<body onload="window.open('popup_dongbo.html','window','width=530, height=450, left=0, top=0, resizable=0')"> -->
+
+
+<!-- Top menu -->
+<div style="margin:0px auto; padding:0; width:1010px;">
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td><img src="images/topbanner.png" border=0  usemap="#MenuLink"></td></tr>
+<tr><td valign=top><img src="images/mainbanner4.png" border=0></td></tr>
+</table>
+</div>
+<!-- Top menu -->
+
+
+<div id="wrap"> 
+
+<!-- Contents -->
+	<div id="content" style="width: 750px;">
+		<h2>Welcome!</h2>
+		<img border="0" src="images/diml_logo1.png" align="left" hspace="20">
+		<p>Digital Image Media Lab. was founded at Yonsei University in 1996. Under supervision of <br> <a href="professor.html">Prof. Kwanghoon Sohn</a>, various topics in digital image processing field have been researched.</p>
+		
+		<p>Specific topics we are interested in and researching currently are:</p>
+
+		<p>
+		<table border="0" style="text-align:left;">
+		<tr> <th>
+		<p style="align:left; width:400px">
+		<ul>
+				<li>Digital Image processing</li>
+				<p>3D Video Acquisition<br>
+				Multi-view Video Processing<br>
+				Image Enhancement / Editing<br></p>
+				<li>Intelligent Computer Vision</li>
+				<p>ADAS(advanced driver assistance systems)<br>
+				Multispectral Imaging / Feature Extraction<br>
+				Deep Learning for Vision<br></p>
+		</ul>
+		</p>
+		</th>
+		<th>
+		<div class="w3-content w3-section" style="max-width:315px; max-height:235px; position:relative">
+		  <img class="mySlides" src="images/research/3dva.png" style="width:315px; height:235px">
+		  <img class="mySlides" src="images/research/ivr.gif" style="width:315px; height:235px">
+		  <img class="mySlides" src="images/research/ire.png" style="width:315px; height:235px">
+		  
+		</div>
+		<!--div class="w3-center" style="text-align:center; height:30px; margin:auto;">
+			<button class="w3-btn demo" onclick="currentDiv(1)">1</button>
+		  <button class="w3-btn demo" onclick="currentDiv(2)">2</button>
+		  <button class="w3-btn demo" onclick="currentDiv(3)">3</button>
+		</div-->
+		
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+				   x[i].style.display = "none";
+				}
+				myIndex++;
+				if (myIndex > x.length) {myIndex = 1}
+				x[myIndex-1].style.display = "block";
+				setTimeout(carousel, 3000); // Change image every 2 seconds
+			}
+		</script>
+		</th>
+		</tr>
+		</table>
+		</p>
+		
+		<h2>News</h2>
+		<ul>
+			
+			<!--li>Congratulations! Seungryong Kim(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Pattern Analysis and Machine Intelligence</b>, <i>Sep. 2016</i></li-->
+			<div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
+			<li>Congratulations! Jongin Son(Ph.D.) and Hangil Choi(M.S.) have been graduated from Yonsei Univ. <i>Feb. 2017</i></li>
+			</div><DIV style='display:none'>
+			
+				<p><img src="images/member/sonjongin.jpg"><img src="images/member/HangilChoi.jpg"></p>
+			</div>
+			
+			<div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
+			<li>Congratulations! Seungryong Kim(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Image Processing</b>, <i>Nov. 2016</i></li>
+			</div><DIV style='display:none'>
+			
+				<!--p><img src="images/journal/tpami.png"></p-->
+				<p style="color:gray;">
+				<b>"Modality-Invariant Image Classification Based on Modality Uniqueness and Dictionary Learning."</b> <br>
+				S. Kim, R. Cai, K. Park, S. Kim, and K. Sohn <br>
+				IEEE Trans. on Image Processing, November 2016.<br>
+				
+				</p>
+			</div>
+			
+			<div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
+			<li>Congratulations! Seungryong Kim(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Pattern Analysis and Machine Intelligence</b>, <i>Sep. 2016</i></li>
+			</div><DIV style='display:none'>
+			
+				<p style="color:gray;">
+				<b>"DASC: Robust Dense Descriptor for Multi-modal and Multi-spectral Correspondence Estimation."</b> <br>
+				S. Kim, D. Min, B. Ham, M. Do, and K. Sohn <br>
+				IEEE Trans. on Pattern Analysis and Machine Intelligence (TPAMI), September 2016.<br>
+				
+				</p>
+			</div>
+			
+			<div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
+			<li>Congratulations! Seungryong Kim(Ph.D. Student), Kihong Park(Ph.D. Student) and Hangil Choi(M.S. Student) won the <b>Hyundai Hackathon Callenge 2016</b>, <i>Aug. 2016</i></li>
+			</div><DIV style='display:none'>
+			
+				<p><img src="images/hakatone.jpg" style="width:40%; height:40%;"></p>
+				<p style="color:gray;">
+				<b>"딥러닝을 이용한 실시간 트래픽 모니터링 시스템"</b> <br>
+				S. Kim, K. Park, and H. Choi <br>
+				Hyundai Hackathon Callenge 2016<br>
+				
+				</p>
+			</div>
+			
+			<div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
+			<li>Congratulations! Seungchul Ryu(Ph.D. Student)'s paper has been accepted for publication in <b>Pattern Recognition</b>, <i>Sep. 2016</i></li>
+			</div><DIV style='display:none'>
+			
+				<!--p><img src="images/journal/tpami.png"></p-->
+				<p style="color:gray;">
+				<b>"Local Area Transform for Cross Modal Correspondence Matching."</b> <br>
+				S. Ryu, S. Kim, and K. Sohn <br>
+				Pattern Recognition (PR), September 2016.<br>
+				
+				</p>
+			</div>
+			<!--li>Congratulations! Seungryong Kim(Ph.D. Student), Kihong Park(Ph.D. Student) and Hangil Choi(M.S. Student) won the <b>Hyundai Hackathon Callenge 2016</b>, <i>Aug. 2016</i></li-->
+			<div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
+			<li>Congratulations! Youngjung Kim(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Image Processing</b>, <i>Aug. 2016</i></li>
+			</div><DIV style='display:none'>
+			
+				<!--p><img src="images/journal/tpami.png"></p-->
+				<p style="color:gray;">
+				<b>"Structure selective depth super-resolution for RGB-D cameras."</b> <br>
+				Y. Kim, B. Ham, C. Oh, and K. Sohn <br>
+				IEEE Trans. on Image Processing, August 2016.<br>
+				
+				</p>
+			</div>
+			
+			<li>Congratulations! Bumsub Ham(Ph.D.) will join the faculty of <a href="http://www.yonsei.ac.kr/" target="_blank">Yonsei University</a>, <i>Aug. 2016</i></li>
+			<li>Congratulations! Seungryong Kim(Ph.D. Student)'s papers have been accepted in <b>ECCV</b>, <i>Jul. 2016</i></li>
+			<li>Donghyun Kim(Ph.D.), Wonjoo Choi(M.S.), and Junghyun Seo(M.S.) have been graduated from Yonsei Univ. <i>Feb. 2016</i></li>
+			<li>Congratulations! <a href="https://sites.google.com/site/globalsmoothing/" target="_blank"> FGS (Fast Global Smoother)</a>, co-developed by our lab, has been offically integrated into <a href="http://docs.opencv.org/master/de/d13/classcv_1_1ximgproc_1_1FastGlobalSmootherFilter.html#gsc.tab=0" target="_blank">OpenCV 3.1</a>, <i>Dec. 2015</i></li>
+			<li>Congratulations! Seungryong Kim(Ph.D. Student) has joined an internship at Microsoft Reasearch in Bejing</a>, <i>Sep. 2015</i></li>
+			
+			<!--
+			
+			<li>Congratulations! Seungryong Kim(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Pattern Analysis and Machine Intelligence</b>, <i>Sep. 2016</i></li>
+			<li>Congratulations! Seungchul Ryu(Ph.D. Student)'s paper has been accepted for publication in <b>Pattern Recognition</b>, <i>Sep. 2016</i></li>
+			<li>Congratulations! Kihong Park(Ph.D. Student)'s paper has been accepted in <b>APSIPA</b>, <i>Aug. 2016</i></li>
+			<li>Congratulations! Changjae Oh(Ph.D. Student)'s paper has been accepted in <b>ACCV</b>, <i>Aug. 2016</i></li>
+			<li>Congratulations! Jongin Son(Ph.D. Student)'s paper has been accepted for publication in <b>Expert Systems With Applications</b>, <i>Aug. 2016</i></li>
+			<li>Congratulations! Youngjung Kim(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Image Processing</b>, <i>Aug. 2016</i></li>
+			<li>Congratulations! Bumsub Ham(Ph.D.) will join the faculty of <a href="http://www.yonsei.ac.kr/" target="_blank">Yonsei University</a>, <i>Aug. 2016</i></li>
+			<li>Congratulations! Seungryong Kim(Ph.D. Student)'s papers have been accepted in <b>ECCV</b>, <i>Jul. 2016</i></li>
+			<li>Congratulations! Hangil Choi(M.S. Student)'s paper has been accepted in <b>ICPR</b>, <i>Jul. 2016</i></li>
+			<li>Congratulations! Kyuwon Kim(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Consumer Electronics</b>, <i>Jun. 2016</i></li>
+			<li>Congratulations! Hyoung Lee(Ph.D. Student)'s paper has been accepted for publication in <b>Optics Express</b>, <i>Jun. 2016</i></li>
+			<li>Donghyun Kim(Ph.D.), Wonjoo Choi(M.S.), and Junghyun Seo(M.S.) have been graduated from Yonsei Univ. <i>Feb. 2016</i></li>
+			<li>Congratulations! <a href="https://sites.google.com/site/globalsmoothing/" target="_blank"> FGS (Fast Global Smoother)</a>, co-developed by our lab, has been offically integrated into <a href="http://docs.opencv.org/master/de/d13/classcv_1_1ximgproc_1_1FastGlobalSmootherFilter.html#gsc.tab=0" target="_blank">OpenCV 3.1</a>, <i>Dec. 2015</i></li>
+			<li>Congratulations! Donghyun Kim(Ph.D. Student)'s paper has been accepted for publication in <b>Optical Engineering</b>, <i>Nov. 2015</i></li>
+			<li>Congratulations! Sunghwan Choi(Ph.D.)'s paper has been accepted for publication in <b>IEEE Trans. on Image Process</b>, <i>Sep. 2015</i></li>
+			<li>Congratulations! Seungryong Kim(Ph.D. Student) has joined an internship at Microsoft Reasearch in Bejing</a>, <i>Sep. 2015</i></li>
+			<li>Congratulations! Xingang Liu(Ph.D.) promoted to the professor at <a href="http://en.uestc.edu.cn/" target="_blank">University of Electronic Science and Technology of China</a>, <i>Jul. 2015</i></li>
+			<li>Congratulations! Jongin Son(Ph.D. Student)'s paper has been accepted for publication in <b>Expert Systems With Applications</b>, <i>Jul. 2015</i></li>
+			<li>Congratulations! Kyuwon Kim(Ph.D. Student)'s paper has been accepted in <b>BMVC</b>, <i>Jul. 2015</i></li>
+			<li>Congratulations! Kihong Park(M.S. Student)'s paper has been accepted in <b>BMVC</b>, <i>Jul. 2015</i></li>
+			<li>Congratulations! Sunghwan Choi(Ph.D.)'s paper has been accepted for publication in <b>IEEE Trans. on Image Process</b>, <i>Jun. 2015</i></li>
+			<li>Congratulations! Jongin Son(Ph.D. Student)'s paper has been accepted for publication in <b>Multimedia Tools and Applications</b>, <i>May 2015</i></li>
+			
+			-->
+			
+			<!--<li>Congratulations! Deukhyun Kim(M.S.)'s paper has been accepted for publication in <b>Expert Systems With Applications</b>, <i>Apr. 2015</i></li>
+			<li>Congratulations! Donghyun Kim(Ph.D. Student)'s paper has been accepted for publication in <b>Optical Engineering</b>, <i>Apr. 2015</i></li>
+			<li>Congratulations! Dongbo Min(Ph.D.) became the assistant professor at <a href="http://www.cnu.ac.kr/" target="_blank">Chungnam National University</a>, <i>Mar. 2015</i></li>
+			<li>Congratulations! Seungryong Kim(Ph.D. Student)'s paper has been accepted in <b>IEEE Conf. on Computer Vision and Pattern Recognition</b>, <i>Mar. 2015</i></li>
+			<li>Hunjae Yoo(Ph.D.), Sunghwan Choi(Ph.D.), Seungwon Woo(M.S), and  Junhyung Kim(M.S) have been graduated from Yonsei Univ. <i>Feb. 2015</i></li>
+			<li>Congratulations! Bumsub Ham(Ph.D.)'s paper has been accepted for publication in <b>IEEE Trans. on Image Process</b>, <i>Feb. 2015</i></li>
+			<li>Congratulations! Changjae Oh(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Broadcasting</b>, <i>Feb. 2015</i></li>
+			<li>Congratulations! Prof. Kwanghoon Sohn was selected as '<b>2014 Underwood Distinguished Professor</b>', <i>Sep. 2014</i>   <br>  News link : <a href="http://yonseitoday.yonsei.ac.kr/eand/html/ystoday.asp?mid=n02&page=1&act=articleview&seq=20880" target="_blank">2014 Underwood and Avison Distinguished Professor</a> </li>
+			<li>Congratulations! Sunghwan Choi(Ph.D. Student) won the electronic times prize in <b>ITRC student award</b>, <i>Sep. 2014</i></li>
+			<li>Congratulations! Jongin Son(Ph.D. Student)'s paper has been accepted for publication in <b>Expert Systems With Applications</b>, <i>Sep. 2014</i></li>
+			<li>Congratulations! Bumsub Ham(Ph.D.) won the grand prize in <b>the 29th Chungang academic award</b>, <i>Jun. 2014</i></li>
+			<li>Congratulations! Seungryong Kim(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Circuits and Systems for Video Technology</b>, <i>May 2014</i></li>-->
+			<!--<li>Minsung Kang(Ph.D), Jinwook Choi(Ph.D), and Deukhyun Kim(M.S) have been graduated from Yonsei Univ. <i>Feb. 2014</i></li>-->
+			<!--<li>Congratulations! Bumsub Ham(Ph.D.)'s paper has been accepted for publication in <b>IEEE Trans. on Image Process.</b>, <i>Dec. 2013</i></li>
+			<li>Postdoctoral Researcher and Research Professor Positions in 3D Video Processing and Computer Vision are currently opening.</i></li>
+			<li>Bumsub Ham(Ph.D.) graduated from Yonsei Univ. <i>Aug. 2013</i></li>
+			<li>Congratulations! Seungchul Ryu(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Circuits and Systems for Video Technology</b>, <i>Aug. 2013</i></li>
+			<li>Congratulations! Jinwook Choi(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Circuits and Systems for Video Technology</b>, <i>Aug. 2013</i></li>
+			<li>Congratulations! Bumsub Ham(Ph.D. Student) is awarded at <b>"Certificate of Merit, 2013 School of Yonsei University Thesis Award"</b> in <i>May 2013</i></li>
+			<li>Congratulations! Donghyun Kim(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Consumer Electronics</b>, <i>May 2013</i></li>
+			<li>Congratulations! Bongjoe Kim(Ph.D)'s paper has been accepted for publication in <b>Pattern Recognition</b>, <i>Apr. 2013</i></li>
+			<li>Congratulations! Hunjae Yoo(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Intelligent Transportation Systems</b>, <i>Feb. 2013</i></li>
+			<li>Bongjoe Kim(Ph.D), Jihyun Kim(M.S), Changjae Oh(M.S) and Changbeom Oh(M.S) have been graduated from Yonsei Univ. <i>Feb. 2013</i></li>
+			<li>Congratulations! Bumsub Ham(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Image Process.</b>, <i>Feb. 2013</i></li>
+			<li>Congratulations! Sunghwan Choi(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Image Process.</b>, <i>Jan. 2013</i></li>-->
+			<!--<li><font color=FF00aa><b>Wedding invitation</b></font> of <b>Dongjoo Lee (M.S in 2007)</b> in <i>Nov. 17, 2012</i> <b><a href='popup_leedongjoo_wedding.htm' target=_blank>[Detail]</a></b> </li>-->
+			<!--<li>Juhyun Oh(Ph.D), Hyoungchul Shin(Ph.D), and Zheng Yan(M.S) graduated from Yonsei Univ. <i>Aug. 2012</i></li>-->
+			<!--<li>New homepage is opened. <i>2012.2.27</i></li>-->
+		</ul>
+		<br>
+		
+		<h2>Recent activities </h2> 
+		<p>
+		<ul>
+		<li><b>ICCE 2017</b>, Las Vegas, US: <b>K. Kim</b>, "Lazy Dragging: Effortless Bounding-box Drawing for Touch-screen Devices"</li>
+		<li><b>APSIPA 2016</b>, Jeju, KOR: <b>K. Park</b>, "Homography Flow for Dense Correspondences"</li>
+		<li><b>ICPR 2016</b>, Cancun, MEX: <b>H. Choi</b>, "Multi-spectral Pedestrian Detection Based on Accumulated Object Proposal with Fully Convolution Network"</li>
+		<li><b>ACCV 2016</b>, Taipei, TPE: <b>C. Oh</b>, "Point-cut: Interactive Image Segmentation using One-point Supervision"</li>
+		<li><b>ECCV 2016</b>, Amsterdam, NLD: <b>S. Kim</b>, "Deep Self-Convolutional Activations Descriptor for Dense Cross-Modal Correspondence"</li>
+		<li><b>ECCV 2016</b>, Amsterdam, NLD: <b>S. Kim</b>, "Unified Depth Prediction and Intrinsic Image Decomposition from a Single Image via Joint Convolutional Neural Fields"</li>
+		<li><b>ICIP 2016</b>, Arizona, US: <b>S. Kim</b>, "ANCC FLOW: Adaptive Normalized Cross-Correlation with Evolving Guidance Aggregation for Dense Correspondence Estimation"</li>
+		<li><b>EI 2016</b>, San Francisco, US: <b>S. Choi</b>, "Multi-level segment based dense correspondence: an affine transformation approach"</li>
+		<li><b>EI 2016</b>, San Francisco, US: <b>H. Jeong</b>, "Depth Extraction from a Single Image Based on Block-Matching and Robust Regression"</li>
+		<li><b>ICCE 2016</b>, Las Vegas, US: <b>K. Kim</b>, "Non-Parametric Human Segmentation Using Support Vector Machine"</li>
+		<li><b>ICCVE 2015</b>, Shenzhen, CHI: <b>J. Seo</b>, "Segment-based Free Space Estimation using Plane Normal Vector in Disparity Space"</li>
+		<li><b>ICIP 2015</b>, Quebec, CAN: <b>C. Oh</b>, "Sparse Edit Propagation for High Resolution Image using Support Vector Machines"</li>
+		<li><b>ICIP 2015</b>, Quebec, CAN: <b>Y. Kim</b>, "A Majorize-minimize Approach for High-Quality Depth Upsampling"</li>
+		<li><b>ICIP 2015</b>, Quebec, CAN: <b>S. Kim</b>, "Learning Depth From a Single Image Using Visual-Depth Words"</li>
+		<li><b>ICIP 2015</b>, Quebec, CAN: <b>J. Son</b>, "Fast Affine-invariant Image Matching Based on Global Bhattacharyya Measure with Adaptive Tree"</li>
+		<li><b>BMVC 2015</b>, Swansea, UK: <b>K. Kim</b>, "Real-time Human Detection based on Personness Estimation"</li>
+		<li><b>BMVC 2015</b>, Swansea, UK: <b>K. Park</b>, "Randomized Global Transformation Approach for Dense Correspondence"</li>
+		<li><b>CVPR 2015</b>, Boston, US: <b>S. Kim</b>, "DASC: Dense Adaptive Self-Correlation Descriptor for Multi-modal and Multi-spectral Correspondence"</li>
+		<!--<li><b>EI 2015</b>, San Francisco, US: <b>S. Kim</b>, "Structure-Aware Depth Super-Resolution Using Gaussian Mixture Model"</li>
+		<li><b>EI 2015</b>, San Francisco, US: <b>K. Park</b>, "Statistical Approach for Supervised Codeword Selection"</li>
+		<li><b>EI 2015</b>, San Francisco, US: <b>J. Kim</b>, "Robust Stereo Matching Based on Probabilistic Laplacian Propagation with Weighted Mutual Information"</li>-->
+		<!--<li><b>Global 3D Tech Forum 2014</b>, Korea: <b>D. Kim</b>, "Guideline for Comfortable Autostereoscopic 3D watching" (First Prize)</li>
+		<li><b>ICIP 2014</b>, Paris, FRA : <b>Y. Kim</b>, "Data-driven Single Image Depth Estimation using Weighted Median Statistics" </li>
+		<li><b>ICIP 2014</b>, Paris, FRA : <b>S. Kim</b>, "Local Self-Similarity Frequency Descriptor for Multispectral Feature Matching" (Top 10% of accepted papers) </li>
+		<li><b>ICIP 2014</b>, Paris, FRA : <b>S. Choi</b>, "Randomized Texture Flow Estimation using Visual Similarity" </li>
+		<li><b>ICIP 2014</b>, Paris, FRA : <b>S. Ryu</b>, "Synthesis Quatlity Prediction Model Based on Distortion Intolerance" </li>
+		<li><b>ICIP 2014</b>, Paris, FRA : <b>S. Ryu</b>, "No-reference Perceptual Blur Model Based on Inherent Sharpness" </li>-->
+		
+
+				
+		</ul>
+		
+		</p> 
+
+        <p>&nbsp;</p>
+	</div>
+<!-- Contents -->
+
+
+<!-- Sidebar -->
+	<div id="sidebar">
+
+		<h2>Menu</h2>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+
+			<li><a href="introduction.html">Introduction</a>
+			</li>
+
+			<li><a href="research.html">Research</a>
+				<ul>
+					<li><a href="research.html">Overview</a><br>
+					<li><a href="projects.html">Projects</a></li>
+				</ul>
+			</li>
+
+			<li><a href="professor.html">People</a>
+				<ul>
+					<li><a href="professor.html">Professor</a><br>
+					<li><a href="postdoc.html">Research Professor</a></li>
+					<li><a href="students.html">Students</a></li>
+					<li><a href="alumni.html">Alumni</a></li>
+				</ul>
+			</li>
+
+			<li><a href="lecture.html">Lecture</a>
+				<ul>
+					<li><a href="lec_undergraduate.html">Undergraduate</a><br>
+					<li><a href="lec_graduate.html">Graduate</a></li>
+					<li><a href="lec_enggraduate.html">Graduate (Engineering)</a></li>
+				</ul>
+			</li>
+
+			<li><a href="pub_intljournal.html">Publications</a>
+				<ul>
+					<li><a href="pub_intljournal.html">International Journals</a><br>
+					<li><a href="pub_intlconf.html">International Conferences</a></li>
+					<li><a href="pub_domesjournal.html">Domestic Journals</a></li>
+					<li><a href="pub_domesconf.html">Domestic Conferences</a></li>
+					<li><a href="pub_patents.html">Patents</a></li>
+				</ul>
+			</li>
+
+			<li><a href="photo.html">Photo</a>
+			</li>
+
+			<li><a href="contact.html">Contact</a> 
+			</li>
+		</ul>
+
+		<h2>Contact</h2>
+		<ul>
+			<li>C129, The 3rd Engineering Building, Yonsei University, 50 Yonsei-ro, Seodaemun-Gu, Seoul 120-749, Korea</li>
+			<li><b>Phone</b>: +82-2-2123-2879<br>
+			<b>Fax</b>: +82-2-313-2879<br> 
+			<b>Email</b>: khsohn<img src="images/at.png" align=middle>yonsei.ac.kr</li>
+			<li></li>
+			<li></li>
+		</ul>
+
+		<center>
+		<a href="http://ee.yonsei.ac.kr" target="_blank"><img src="images/banner_ee.png"></a><br><br>
+		<a href="http://ieeexplore.ieee.org" target="_blank"><img src="images/banner_ieee.png"></a><br><br>
+		<a href="http://www.spiedigitallibrary.org/" target="_blank"><img src="images/banner_spie.png"></a></center><br>
+
+	</div>
+<!-- Sidebar -->
+
+
+<!-- Footer -->
+	<div id="footer">
+		<p style="text-align: center">
+		<a href="index.html">Home</a> | 
+		<a href="introduction.html">Introduction</a> | 
+		<a href="research.html">Research</a> |
+		<a href="professor.html">People</a> |
+		<a href="lecture.html">Lecture</a> |
+		<a href="pub_intljournal.html">Publications</a> |
+		<a href="photo.html">Photo</a> |
+		<a href="contact.html">Contact</a>
+		</p>
+		
+		<p>
+		<img src="images/diml_logo1.png"><br>
+		&copy; 2012 
+		<a href="http://diml.yonsei.ac.kr">Digital Image Media Lab</a> @ <a href="http://www.yonsei.ac.kr">Yonsei University</a>
+		</p>
+	</div>
+<!-- Footer -->
+
+
+</div>
+
+<map name="MenuLink">
+<area shape="rect" coords="201, 66, 292, 89" href="introduction.html" target="_top" alt="Introduction">
+<area shape="rect" coords="311, 66, 379, 89" href="research.html" target="_top" alt="Research">
+<area shape="rect" coords="398, 66, 452, 89" href="professor.html" target="_top" alt="People">
+<area shape="rect" coords="473, 66, 532, 89" href="lecture.html" target="_top" alt="Lecture">
+<area shape="rect" coords="552, 66, 638, 89" href="pub_intljournal.html" target="_top" alt="Publications">
+<area shape="rect" coords="661, 66, 710, 89" href="photo.html" target="_top" alt="Photo">
+<area shape="rect" coords="731, 66, 794, 89" href="contact.html" target="_top" alt="Contact">
+<area shape="rect" coords="29, 10, 452, 58" href="index.html" target="_top">
+</map>
+
+</body>
+</html>
