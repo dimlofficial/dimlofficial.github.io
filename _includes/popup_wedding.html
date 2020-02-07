@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<title>:: DIML NOTICE ::</title>
+		<link rel="stylesheet" href="css/style.css" style type="text/css">
+
+<script language="JavaScript" type="text/JavaScript">
+
+function setCookie(name, value, expiredays)
+{
+	var todayDate = new Date();
+	todayDate.setDate(todayDate.getDate() + expiredays);
+	document.cookie = name + "=" + escape(value) + "; path=/; expires = " +todayDate.toGMTString() + ";"
+}
+
+function closeWin()
+{
+	if(document.forms[0].Notice.checked)
+	{
+		setCookie("Notice", "no", 1);
+	}
+	self.close();
+}
+</script>
+</head>
+	
+<body onload="closeWin()">
+
+<br><b><center>DIML 연구실 동문 결혼 소식</center></b><br><br>
+		</font>
+		<font face="돋움", size="2">
+		<b><center>DIML 연구실의 두 동문님께서 결혼 하십니다.</center><br>
+		<b><center>다들 축하해 주시기 바랍니다.</center><br>
+		
+
+		<br><b><center>김승룡♡김선옥 결혼 축하드립니다.</center><br>
+		<br>
+		<b><center>일 시: 2018년 5월 12일 (토요일) 낮 1시    장 소: 연세대학교 동문회관 </center><br>
+		<center><img src="images\events\ss_wedding.png" width=500 border=0><center><br>
+		<b><br><center>감사합니다.</center>
+		<br>
+		<br>
+	
+<!--
+<table border="0" align="center">
+			<tr><td>
+			<img src="./logo.jpg" >
+			</td></tr>
+		</table>
+-->
+
+		
+<!--
+<form name = "checkClose">
+<input type = "checkbox" name = "Notice"> 오늘 하루만 이 창 띄우지 않기 
+<a href=javascript:closeWin()><b>    닫기</b></a>
+</form>
+-->
+
+
+<table width="400" height="30" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+	<td height="30" align="right" bgcolor"535050">
+		<input type="checkbox" name="Notice" value="Y"> 오늘은 이 창을 열지 않겠습니다. 
+		<a href="javascript:window.close()"> <b>[close]</b></a>
+	</td>	
+</tr>
+
+
+</body>
+
+	
+</html>
