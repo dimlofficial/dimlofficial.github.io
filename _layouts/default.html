@@ -16,9 +16,15 @@
   <img src="/images/topbanner.png" border=0  usemap="#MenuLink">
   {% if page.url=="/" %}
   <div id="carouselControls", class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
-
-    <img width=1009 src="/images/main_cover.png" border=0>
-    
+    <ol class="carousel-indicators">
+      <li data-target="#carouselControls" data-slide-to="0" class=""></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="slide0">
+            <!--<img class="d-block w-100" src="/images/slider7001400/slider_team.jpg" alt="Slide 0">-->
+            <img width=1009 src="/images/main_cover.png" border=0 alt="Slide 0">
+      </div>
+    </div>
   </div>
   {% endif %}
 </div>
