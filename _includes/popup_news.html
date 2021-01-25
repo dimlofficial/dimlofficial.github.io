@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<title>:: DIML NOTICE ::</title>
+		<link rel="stylesheet" href="css/style.css" style type="text/css">
+
+    <script language="JavaScript" type="text/JavaScript">
+
+  function setCookie(name, value, expiredays)
+  {
+    var todayDate = new Date();
+    todayDate.setDate(todayDate.getDate() + expiredays);
+    document.cookie = name + "=" + escape(value) + "; path=/; expires = " +todayDate.toGMTString() + ";"
+  }
+
+  function OpenWin()
+  {
+  	if(document.forms[0].Notice.checked)
+  	{
+  		setCookie("Notice", "no", 1);
+  	}
+  	self.open();
+  }
+
+    </script>
+  </head>
+
+<body onload="OpenWin()">
+
+<br><b><center>DIML ������ ���� ��ȥ �ҽ�</center></b><br><br>
+		</font>
+		<font face="����", size="2">
+		<b><center>DIML �������� �� �����Բ��� ��ȥ �Ͻʴϴ�.</center><br>
+		<b><center>�ٵ� ������ �ֽñ� �ٶ��ϴ�.</center><br>
+
+
+		<br><b><center>���·梽�輱�� ��ȥ ���ϵ帳�ϴ�.</center><br>
+		<br>
+		<b><center>�� ��: 2018�� 5�� 12�� (������) �� 1��    �� ��: �������б� ����ȸ�� </center><br>
+		<center><img src="images\events\ss_wedding.png" width=500 border=0><center><br>
+		<b><br><center>�����մϴ�.</center>
+		<br>
+		<br>
+
+    <table width="400" height="30" border="0" cellpadding="0" cellspacing="0">
+    
+    <tr>
+    	<td height="30" align="right" bgcolor"535050">
+    		<input type="checkbox" name="Notice" value="Y"> ������ �� â�� ���� �ʰڽ��ϴ�.
+    		<a href="javascript:window.close()"> <b>[close]</b></a>
+    	</td>
+    </tr>
+
+
+    </body>
+
+
+    </html>
