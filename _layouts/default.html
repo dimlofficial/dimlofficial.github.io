@@ -18,15 +18,16 @@
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-150360418-1"></script>
 
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-	<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
-	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<head>
+      //JQuery 스크립트 연결
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+     <script type="text/javascript" src="slick/slick.min.js"></script>
 
-	<script>
-    $(document).ready(function(){
-      $('.slider').bxSlider();
-    });
-  </script>
+    //슬릭 CSS연결
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    </head>
+
 
 
 <style>
@@ -97,17 +98,41 @@ h2, p, h3 { margin:0; padding:0 }
         <span class="close">&times;</span>
      </div>
    <div class="modal_content">
-		 <div class="home__slider">
-	  <ul class="bxslider">
+		 <section class="visual">
 	      <div><img src="/images/banner/Sunok_KAU_2.PNG" width="700" alt="" title="이미지1"></div>
 	      <div><img src="/images/banner/minsoo_AAAI2021_2.PNG" width="700" alt="" title="이미지2"></div>
 	      <div><img src="/images/banner/Hyungjoo_AAAI2021_2.PNG" width="700" alt="" title="이미지3"></div>
-	  </ul>
+	   </section>
+		 <button class="play">시작</button>
+		 <button class="pause">정지</button>
 	</div>
   </div>
 </div>
-</div>
 {% endif %}
+
+
+//script code
+        // 슬릭 슬라이더 사용하기
+        <script type="text/javascript">
+
+          // 슬라이드 2초마다 자동재생
+          $('.visual').slick({
+                autoplay : true,  // 자동슬라이드 on/off
+                autoplaySpeed : 2000  //슬라이드 2초마다
+          });
+
+          // 시작버튼 클릭시 슬라이드 다시 재생
+          $('.play').on('click', funtion(){
+              $('.visual').slick('slickPlay');
+          });
+
+           // 정지버튼 클릭시 슬라이드 정지
+          $('.pause').on('click', funtion(){
+              $('.visual').slick('slickPause');
+          });
+
+        </script>
+
 
 <!-- { include head.html %} --> <!-- if use this line, add % before include -->
 
