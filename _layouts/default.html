@@ -29,12 +29,34 @@
   gtag('config', 'UA-150360418-1');
 </script>
 
-<!--<script language="javascript">
-function showPopup()
-{
-	window.open("popup_news.html", "DIML News", "width=400, height=300, left=100, top=50");
+<style>
+p,h3 { margin:0; padding:0 }
+#overlay { width:100%;
+               height:100%;
+               background:rgba(0,0,0,0.4);
+               position:fixed;
+               top:0; left:0;
+               z-index:1;
+               visibility:visible;
+               opacity:1;
+               transition:all 0.5s ease;
+              }
+.modal { width:80%;
+				background:#f5f5f5;
+				margin:150px auto; }
+.modal_header { width:100%; position:relative; }
+.modal_header h3 { padding:20px 0; color:#333; }
+.modal_content p {}
+.close { position:absolute;
+	top:10px; right:20px;
+	font-size:28px;
+	color:#aaa;
+	font-weight:bold;   }
+.close:hover, .close:focus {
+	color:#000;
+	cursor:pointer;
 }
-</script>-->
+</style>
 
 </head>
 
@@ -54,9 +76,22 @@ function showPopup()
 
 <div style="margin:0px auto; padding:0; width:1010px;">
   <img src="/images/topbanner.png" border=0  usemap="#MenuLink">
+	<table width=100% border=0 cellpadding=0 cellspacing=0>
+	<tr><td><img src="/images/topbanner.png" border=0  usemap="#MenuLink"></td></tr>
+	{% if page.url=="/" %}
+	<tr><td valign=top><img width=1009 src="/images/main_cover.png" border=0></td></tr>
+	{% endif %}
+	</table>
   {% if page.url=="/" %}
+	<div id="overlay">
+		<div id="myModal" class="modal">
+     <div class="modal_header">
+        <h3>DimL Recent News</h3>
+				<span class="close">&times;</span>
+     </div>
   <!-- <hr style="border: solid 2px white"> -->
   <!-- <hr style="border: solid 3px #0B0B61;"> -->
+	<div class="modal_content">
   <div id="carouselControls" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselControls" data-slide-to="0" class="active"></li>
@@ -91,6 +126,9 @@ function showPopup()
     <span class="sr-only">Next</span>
     </a>
   </div>
+</div>
+</div>
+</div>
   {% endif %}
 </div>
 
@@ -138,6 +176,31 @@ function showPopup()
 <area shape="rect" coords="731, 66, 794, 89" href="contact" target="_top" alt="Contact">
 <area shape="rect" coords="29, 10, 452, 58" href="index" target="_top">
 </map> -->
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+  // 모달창 열기 이벤트
+
+  //$("#myBtn").on("click", function(){
+  //        $("#overlay").css({ visibility:"visible",
+  //                                   opacity:1 });
+  //});
+
+
+  // 모달창 닫기 이벤트
+  $(".close").on("click", function(){
+          $("#overlay").css({ visibility:"hidden",
+                                     opacity:0 });
+  });
+
+ $(document).on("click", function(e){
+        if( $("#overlay").is(e.target)) {
+         $("#overlay").css({ visibility:"hidden",
+                                     opacity:0 });
+    }
+  });
+</script>
+  </script>
 
 </body>
 </html>
