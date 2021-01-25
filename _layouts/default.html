@@ -32,7 +32,6 @@
 <script language="javascript">
 function showPopup()
 {
-	{% if page.url=="/" %}
 	window.open("popup_news.html", "DIML News", "width=400, height=300, left=100, top=50");
 }
 </script>
@@ -42,6 +41,7 @@ function showPopup()
 
 <body>
 	<script langauge="javascript">
+	   {% if page.url=="/" %}
      window.open("popup_news.html", "DIML News", "width=400, height=300, left=100, top=50");
   </script>
 <!-- Top menu -->
