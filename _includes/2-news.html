@@ -76,6 +76,23 @@
   }
   </script>
 
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+
   <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
   <li>Congratulations! Sunok Kim (Ph.D.) will join the faculty of <a href="http://www.kau.ac.kr/intro.html" target="_blank">Korea Aerospace University</a>, <i>Jan. 2021</i></li>
   </div>
