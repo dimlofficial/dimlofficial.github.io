@@ -71,10 +71,10 @@ button {
                transition:all 0.5s ease;
               }
 h2, p, h3 { margin:0; padding:0 }
-.modal { width:700px;
+.modal { width:601px;
 				background:#f5f5f5;
 				margin:200px auto;
-			  left: 50%;}
+			  left: 70%;}
 .modal_header { width:100%; position:relative;  }
 .modal_content { width:100%;
                          background:#fefefe;
@@ -154,22 +154,6 @@ h2, p, h3 { margin:0; padding:0 }
   });
 </script>
 
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 2500);
-}
-</script>
 
 <!--
 {% if page.url=="/" %}
