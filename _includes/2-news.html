@@ -18,6 +18,27 @@
        </div>
     </div>
   </div>
+  <script>
+    // 모달창 열기 이벤트
+    $("#myBtn").on("click", function(){
+            $("#overlay").css({ visibility:"visible",
+                                       opacity:1});
+    });
+
+    // 모달창 닫기 이벤트
+
+    $(".close").on("click", function(){
+            $("#overlay").css({ visibility:"hidden",
+                                       opacity:0});
+    });
+
+   $(document).on("click", function(e){
+          if( $("#overlay").is(e.target)) {
+           $("#overlay").css({ visibility:"hidden",
+                                       opacity:0 });
+      }
+    });
+  </script>
 
   <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
   <li>Congratulations! Sunok Kim (Ph.D.) will join the faculty of <a href="http://www.kau.ac.kr/intro.html" target="_blank">Korea Aerospace University</a>, <i>Jan. 2021</i></li>
