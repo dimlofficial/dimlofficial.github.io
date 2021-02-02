@@ -67,8 +67,6 @@ layout: default
 		const firstSlide = document.querySelector(".slider_item:first-child");
 		function slide(){
 			const currentSlide = document.querySelector(`.${showing_class}`); // showing 클래스가  있는 엘리먼트를 찾는다.
-      const rightBtn = document.querySelector(".right_arrow");
-      const leftBtn = document.querySelector(".left_arrow");
 
 			if(currentSlide){
 				// 지금 shwoing 클래스를 가진 엘리먼트 다음 엘리먼트에 클래스를 추가 한다.
@@ -87,7 +85,29 @@ layout: default
 			}
 		}
 
+    function click_slide(){
+      const currentSlide = document.querySelector(`.${showing_class}`);
+      const nextSlide = currentSlide.nextElementSibling;
+      const prevSlide = currentSlide.prevElementSibling;
+      const rightBtn = document.querySelector(".right_arrow");
+      const leftBtn = document.querySelector(".left_arrow");
+
+      rightBtn.addEventListener("click", function(){
+        if (nextSlide){
+          console.log(currentSlide);
+          nextSlide.classList.add(showing_class);
+        } else {firstSlide.classList.add(showing_class);}
+      });
+      leftBtn.addEventListener("click", function(){
+        if (prevSlide){
+          console.log(currentSlide);
+          prevSlide.classList.add(showing_class);
+        }
+      });
+    }
+
 		slide();
+    click_slide();
 		setInterval(slide, 3000); // 1000은 1초
 
 
