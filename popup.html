@@ -89,7 +89,7 @@ layout: default
       const currentSlide = document.querySelector(`.${showing_class}`);
       const nextSlide = currentSlide.nextElementSibling;
       const prevSlide = currentSlide.prevElementSibling;
-      const rightBtn = document.querySelector(".right_arrow");
+      const rightBtn = document.querySelector(".");
       const leftBtn = document.querySelector(".left_arrow");
 
       rightBtn.addEventListener("click", function(){
@@ -107,7 +107,7 @@ layout: default
     }
 
 		slide();
-    click_slide();
+    // click_slide();
 		setInterval(slide, 3000); // 1000은 1초
 
 
