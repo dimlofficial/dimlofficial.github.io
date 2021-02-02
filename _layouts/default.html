@@ -111,7 +111,30 @@ h2, p, h3 { margin:0; padding:0 }
 </table>
 </div>
 
-<script onload="window.open('../popup.html','window','width=530, height=450, left=0, top=530, resizable=0, location=no, status=no')">
+
+<script>
+
+function getCookies(Name) {
+	var search = Name + "="
+	if (document.cookie.length > 0){
+		offset = document.cookie.indexOf(search)
+		if (offset != -1){
+			offset += search.length
+			end = document.cookie.indexOf(";", offset)
+
+			if (end == -1){
+				end = document.cookie.length
+				return unescape(document.cookie.substring(offset, end))
+			}
+		}
+	}
+	return "";
+}
+
+if (getCookies("20210202") != "done"){
+	window.open('../popup.html','window','width=530, height=450, left=0, top=530, resizable=0, location=no, status=no')
+}
+
 </script>
 
 <!-- Pop up -->
