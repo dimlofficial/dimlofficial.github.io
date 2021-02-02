@@ -112,7 +112,36 @@ h2, p, h3 { margin:0; padding:0 }
 </div>
 
 <!-- Pop up -->
-<div style='width:540px;float: right;'>
+<!-- <script>
+function getCookie( cookieName )
+{
+	var search = cookieName + "=";
+	var cookie = document.cookie;
+
+	if( cookie.length > 0 )
+	{
+		startIndex = cookie.index0f( cookieName );
+		if(startIndex != -1)
+		{
+			startIndex += cookieName.length;
+			endIndex = cookie.index0f( ";", startIndex );
+			if(endIndex == -1) endIndex = cookie.length;
+
+			return unescape( cookie.substring( startindex + 1, endIndex ) );
+		}
+		else {
+			{
+				return false;
+			}
+		}
+		else {
+			return false;
+		}
+	}
+	if( !getCookie("close20210202" ) )
+} -->
+
+<!-- <div style='width:540px;float: right;'>
 
 <button id="myBtn">D<br>I<br>M<br>L<br>&nbsp;<br>소<br>식<br></button>
 
@@ -137,7 +166,7 @@ h2, p, h3 { margin:0; padding:0 }
 			 </th>
      </div>
   </div>
-</div>
+</div> -->
 
 
 
@@ -164,16 +193,16 @@ h2, p, h3 { margin:0; padding:0 }
 </script>
 
 
-<!--
-{% if page.url=="/" %}
+
+<!-- {% if page.url=="/" %}
 <div id="overlay">
 	<div id="myModal" class="modal">
 		<div class="modal_header">
         <h3>    DimL Recent News</h3>
         <span class="close">&times;</span>
      </div>
-   <div class="modal_content">-->
-		 <!--<div id="slide-wrap">
+   <div class="modal_content">
+		 <div id="slide-wrap">
     <input type="radio" name="dot" id="circle1" checked>
     <label for="circle1"></label>
     <input type="radio" name="dot" id="circle2">
@@ -187,34 +216,34 @@ h2, p, h3 { margin:0; padding:0 }
       <li class="slide-img2 "></li>
       <li class="slide-img3"></li>
       <li class="slide-img4 "></li>
-    </ul>-->
-		<!--<div><img src="/images/banner/Sunok_KAU_2.PNG" width="750" alt="" title="이미지1"></div>
-  </div>-->
-	      <!--<div><img src="/images/banner/minsoo_AAAI2021_2.PNG" width="700" alt="" title="이미지2"></div>
-	      <div><img src="/images/banner/Hyungjoo_AAAI2021_2.PNG" width="700" alt="" title="이미지3"></div>-->
-	<!--</div>
+    </ul>
+		<div><img src="/images/banner/Sunok_KAU_2.PNG" width="750" alt="" title="이미지1"></div>
+  </div>
+	      <div><img src="/images/banner/minsoo_AAAI2021_2.PNG" width="700" alt="" title="이미지2"></div>
+	      <div><img src="/images/banner/Hyungjoo_AAAI2021_2.PNG" width="700" alt="" title="이미지3"></div>
+	</div>
 </div>
-{% endif %}-->
+{% endif %} -->
 
 
-<!-- { include head.html %} --> <!-- if use this line, add % before include -->
+{ %include head.html %} <!-- if use this line, add % before include -->
 
-<!--<div style="margin:0px auto; padding:0; width:1010px;">
-	<table width=100% border=0 cellpadding=0 cellspacing=0>
-	<tr><td><img src="/images/topbanner.png" border=0  usemap="#MenuLink"></td></tr>
-	{% if page.url=="/" %}
-	<tr><td valign=top><img width=1009 src="/images/main_cover.png" border=0></td></tr>
-	</table>
-	<div id="overlay">
-		<div id="myModal" class="modal">
+<div style="margin:0px auto; padding:0; width:1010px;">
+   <table width=100% border=0 cellpadding=0 cellspacing=0>
+   <tr><td><img src="/images/topbanner.png" border=0  usemap="#MenuLink"></td></tr>
+   {% if page.url=="/" %}
+   <tr><td valign=top><img width=1009 src="/images/main_cover.png" border=0></td></tr>
+   </table>
+   <div id="overlay">
+      <div id="myModal" class="modal">
      <div class="modal_header">
         <h3>DimL Recent News</h3>
-				<span class="close">&times;</span>
-     </div>-->
-  <!-- <hr style="border: solid 2px white"> -->
-  <!-- <hr style="border: solid 3px #0B0B61;"> -->
-	<!--<div class="modal_content">
-		<img width=1009 src="/images/main_cover.png" border=0>
+            <span class="close">&times;</span>
+     </div>
+  <hr style="border: solid 2px white">
+  <hr style="border: solid 3px #0B0B61;">
+   <div class="modal_content">
+      <img width=1009 src="/images/main_cover.png" border=0>
   <div id="carouselControls" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselControls" data-slide-to="0" class="active"></li>
@@ -222,22 +251,30 @@ h2, p, h3 { margin:0; padding:0 }
       <li data-target="#carouselControls" data-slide-to="2"></li>
       <li data-target="#carouselControls" data-slide-to="3"></li>
       <li data-target="#carouselControls" data-slide-to="4"></li>
+			<li data-target="#carouselControls" data-slide-to="5"></li>
+			<li data-target="#carouselControls" data-slide-to="6"></li>
     </ol>
     <div class="carousel-inner">
       <div class="item active">
-            <img class="d-block w-100" width="1009" src="/images/banner/main_cover_change_size.png" alt="Slide 0">
+            <img class="d-block w-100" width="1009" src="/images/Popup/Popup1.PNG" alt="Slide 0">
       </div>
       <div class="item">
-            <img class="d-block w-100" width="1009" src="/images/banner/Sunok_KAU_2.PNG" alt="Slide 1">
+            <img class="d-block w-100" width="1009" src="/images/Popup/Popup2.PNG" alt="Slide 1">
       </div>
       <div class="item">
-            <img class="d-block w-100" width="1009" src="/images/banner/minsoo_AAAI2021_2.PNG" alt="Slide 2">
+            <img class="d-block w-100" width="1009" src="/images/Popup/Popup3.PNG" alt="Slide 2">
       </div>
       <div class="item">
-            <img class="d-block w-100" width="1009" src="/images/banner/Hyungjoo_AAAI2021_2.PNG" alt="Slide 3">
+            <img class="d-block w-100" width="1009" src="/images/Popup/Popup4.PNG" alt="Slide 3">
       </div>
       <div class="item">
-            <img class="d-block w-100" width="1009" src="/images/banner/Seungryong_prize.PNG" alt="Slide 4">
+            <img class="d-block w-100" width="1009" src="/images/Popup/Popup5.PNG" alt="Slide 4">
+      </div>
+			<div class="item">
+            <img class="d-block w-100" width="1009" src="/images/Popup/Popup6.PNG" alt="Slide 5">
+      </div>
+			<div class="item">
+            <img class="d-block w-100" width="1009" src="/images/Popup/Popup7.PNG" alt="Slide 6">
       </div>
     </div>
     <a class="left carousel-control" href="#carouselControls" data-slide="prev">
@@ -253,7 +290,7 @@ h2, p, h3 { margin:0; padding:0 }
 </div>
 </div>
   {% endif %}
-</div>-->
+</div>
 
 <div id="wrap">
 
