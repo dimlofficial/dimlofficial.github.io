@@ -27,6 +27,18 @@ layout: default
 			transition: all .7s ease-in-out;
 			transform: scale(.8);
 		}
+    .slider_Btn{
+      position: absolute;
+      top:50%;
+      transform: translateY(-50%);
+      width: 100px;
+      height: 50px;
+      line-height: 50px;
+      border: 1px solid #fff;
+    }
+    .left_arrow{left:50px;}
+    .right_arrow{right:50px;}
+
 		img {width: 100%;}
 
 		.showing{
@@ -48,8 +60,6 @@ layout: default
     <div class="slider_item"><img src="images/Popup/Popup5.PNG"></div>
     <div class="slider_item"><img src="images/Popup/Popup6.PNG"></div>
     <div class="slider_item"><img src="images/Popup/Popup7.PNG"></div>
-		<!-- <div class="slider_item"><img src="img/sample04.jpg"></div>
-		<div class="slider_item"><img src="img/sample05.jpg"></div> -->
 	</div>
 
 	<script type="text/javascript">
@@ -57,6 +67,9 @@ layout: default
 		const firstSlide = document.querySelector(".slider_item:first-child");
 		function slide(){
 			const currentSlide = document.querySelector(`.${showing_class}`); // showing 클래스가  있는 엘리먼트를 찾는다.
+      const rightBtn = document.querySelector(".right_arrow");
+      const leftBtn = document.querySelector(".left_arrow");
+
 			if(currentSlide){
 				// 지금 shwoing 클래스를 가진 엘리먼트 다음 엘리먼트에 클래스를 추가 한다.
 				currentSlide.classList.remove(showing_class);
@@ -85,7 +98,7 @@ layout: default
 
   <tr>
   	<td height="30" align="right" bgcolor"535050">
-  		<input type="checkbox" name="Notice" value="Y"> ������ �� â�� ���� �ʰڽ��ϴ�.
+  		<input type="checkbox" name="Notice" value="Y"> 오늘 하루 보지 않기.
   		<a href="javascript:window.close()"> <b>[close]</b></a>
   	</td>
   </tr>
