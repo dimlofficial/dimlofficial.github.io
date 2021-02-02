@@ -112,6 +112,37 @@ h2, p, h3 { margin:0; padding:0 }
 </div>
 
 <!-- Pop up -->
+
+<script>
+var index = 0;
+window.onload = function(){slideShow();}
+
+function slideShow(){
+	var i;
+	var x = document.getElementsByClassName("slide1");
+
+	for (i = 0; i < x.length; i++){
+		x[i].style.display = "none";
+	}
+	index++;
+	if (index > x.length){
+		index = 1;
+	}
+	x[index - 1].style.display = "block";
+	setTimeout(slideShow, 2000);
+}
+<\script>
+
+<body>
+
+<div>
+	<img class="slide1" src="/images/Popup/Popup1.PNG"
+	<img class="slide1" src="/images/Popup/Popup2.PNG"
+	<img class="slide1" src="/images/Popup/Popup3.PNG"
+<\div>
+
+<\body>
+
 <!-- <script>
 function getCookie( cookieName )
 {
