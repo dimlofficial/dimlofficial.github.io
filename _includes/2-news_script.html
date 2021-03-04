@@ -1,0 +1,16 @@
+{% for new in site.data.news %}
+<div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
+    <li> Congratulations! {{new.text}}
+        {% if new.conf %}<b>{{new.conf}}</b>, {% endif %}
+        {% if new.date %}<i>{{new.date}}</i>{% endif %}
+    </li>
+</div><DIV style='display:none'>
+    
+    {% if new._title %}<p style="color:gray;">
+        <b>{{new._title}}</b><br>
+        {{new._authors}} <br>
+        {{new._conf_date}}<br>
+    </p>{% endif %}
+</div>
+
+{% endfor %}

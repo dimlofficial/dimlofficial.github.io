@@ -1,190 +1,98 @@
+<h2>News<button id="myBtn">Recent News</button></h2>
 
-  <h2>News <button id="myBtn">Recent News</button></h2> 
 
-  <ul>
+<ul>
 
-    <div id="overlay">
-      <div id="myModal" class="modal">
-        <div class="modal_header">
-          <h3>&nbsp;DIML Recent News</h3>
-          <span class="close">&times;</span>
-        </div>
-        <div class="modal_content">
-          <div class="w3-content w3-section" style="max-width:600px; ">
-            <img class="mySlides2" src="/images/Popup/Popup1.PNG" style="width:600px; height:500px">
-            <img class="mySlides2" src="/images/Popup/Popup2.PNG" style="width:600px; height:500px">
-            <img class="mySlides2" src="/images/Popup/Popup3.PNG" style="width:600px; height:500px">
-            <img class="mySlides2" src="/images/Popup/Popup4.PNG" style="width:600px; height:500px">
-            <img class="mySlides2" src="/images/Popup/Popup5.PNG" style="width:600px; height:500px">
-            <img class="mySlides2" src="/images/Popup/Popup6.PNG" style="width:600px; height:500px">
-            <img class="mySlides2" src="/images/Popup/Popup7.PNG" style="width:600px; height:500px">
-            <div class="w3-center">
-              <div class="w3-section">
-                <button class="w3-btn" onclick="plusDivs(-1)">❮ Prev</button>
-                <button class="w3-btn" onclick="plusDivs(1)">Next ❯</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  {% include 2-news_script.html %}
 
-<script>
-  // 모달창 열기 이벤트
-  $("#myBtn").on("click", function () {
-    $("#overlay").css({
-      visibility: "visible",
-      opacity: 1
-    });
-  });
-
-  // 모달창 닫기 이벤트
-
-  $(".close").on("click", function () {
-    $("#overlay").css({
-      visibility: "hidden",
-      opacity: 0
-    });
-  });
-
-  $(document).on("click", function (e) {
-    if ($("#overlay").is(e.target)) {
-      $("#overlay").css({
-        visibility: "hidden",
-        opacity: 0
-      });
-    }
-  });
-</script>
-
-<script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-
-  function currentDiv(n) {
-    showDivs(slideIndex = n);
-  }
-
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides2");
-
-    if (n > x.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = x.length };
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    x[slideIndex - 1].style.display = "block";
-  }
-</script>
-
-<script>
-  var myIndex = 0;
-  carousel();
-
-  function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides2");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) { myIndex = 1 }
-    x[myIndex - 1].style.display = "block";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-  }
-</script>
-
-  <div class=title>
-    <li>Congratulations! Sunok Kim (Ph.D.) will join the faculty of <a href="http://www.kau.ac.kr/intro.html" target="_blank">Korea Aerospace University</a>, <i>Jan. 2021</i></li>
+  <div class="title">
+    <li>Congratulations! Sunok Kim (Ph.D.) will join the faculty of <a href="http://www.kau.ac.kr/intro.html"
+        target="_blank">Korea Aerospace University</a>, <i>Jan. 2021</i></li>
   </div>
 
-  <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
+  <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';
+    style="cursor: pointer;">
     <li>Congratulations! Minsu Kim (Ph.D. Student)'s paper has been accepted in <b>AAAI</b>, <i>Dec. 2020</i></li>
-  </div>
-  <div style='display:none'>
-    <p style="color:gray;">
-      <b>"Cross-Domain Grouping and Alignment for Domain Adaptive Semantic Segmentation"</b> <br>
+  </div><DIV style='display: none'>
+    
+  <p style="color:gray;">
+     <b>"Cross-Domain Grouping and Alignment for Domain Adaptive Semantic Segmentation"</b><br>
       M. Kim, S. Joung, S. Kim, J. Park, I. Kim and K. Sohn <br>
       The Thirty-Fifth AAAI Conference on Artificial Intelligence, February 2021.<br>
-    </p>
+  </p>
   </div>
   
-  <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
+  <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';
+    style="cursor: pointer;">
     <li>Congratulations! Hyungjoo Jung (Ph.D. Student)'s paper has been accepted in <b>AAAI</b>, <i>Dec. 2020</i></li>
-  </div>
-  <div style='display:none'>
+  </div><DIV style='display:none'>
+
     <p style="color:gray;">
       <b>"Deep Low-Contrast Image Enhancement using Structure Tensor Representation"</b> <br>
       H. Jung, H. Jang, N. Ha and K. Sohn <br>
       The Thirty-Fifth AAAI Conference on Artificial Intelligence, February 2021.<br>
     </p>
   </div>
-
+  
   <!-- Not working above -->
-
-  <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
+  
+  <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';
+    style="cursor: pointer;">
     <li>Congratulations! Sungil Choi (Ph.D. Student)'s paper has been accepted in <b>Sensors</b>, <i>Aug. 2020</i></li>
   </div><DIV style='display:none'>
-      
+
     <p style="color:gray;">
       <b>"Pyramid Inter-Attention for High Dynamic Range Imaging"</b> <br>
       S. Choi, J. Cho, W. Song, J. Choe, J. Yoo and K. Sohn <br>
       Sensors.<br>
-      </p>
-    </div>
-
-  <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
-  <li>Congratulations! Hyungjoo Jung (Ph.D. Student)'s paper has been accepted in <b>IEEE Trans. on Image Processing</b>, <i>July 2020</i></li>
+    </p>
+  </div>
+  
+  <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';
+    style="cursor: pointer;">
+    <li>Congratulations! Hyungjoo Jung (Ph.D. Student)'s paper has been accepted in <b>IEEE Trans. on Image
+        Processing</b>, <i>July 2020</i></li>
   </div><DIV style='display:none'>
-
-      <p style="color:gray;">
+    
+    <p style="color:gray;">
       <b>"Learning Deeply Aggregated Alternating Minimization for General Inverse Problems"</b> <br>
       H. Jung, Y. Kim, D. Min, H. Jang, N. Ha, and K. Sohn <br>
       IEEE Trans. on Image Processing (TIP).<br>
-      </p>
-    </div>
-
-  <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
-  <li>Congratulations! Jungin Park(Ph.D. Student)'s paper has been accepted in <b>ECCV </b>, <i>July 2020</i></li>
-  </div><DIV style='display:none'>
-
-    <p style="color:gray;">
-    <b>"SumGraph: Video Summarization via Recursive Graph Modeling"</b><br>
-    J. Park, J. Lee, I. Kim, and K. Sohn <br>
-    European Conference on Computer Vision(ECCV), August 2020.<br>
-
     </p>
   </div>
-
-  <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
-  <li>Congratulations! Sangryul Jeon(Ph.D. Student)'s paper has been accepted in <b>ECCV </b>, <i>July 2020</i></li>
+  
+  <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';
+    style="cursor: pointer;">
+    <li>Congratulations! Jungin Park(Ph.D. Student)'s paper has been accepted in <b>ECCV </b>, <i>July 2020</i></li>
   </div><DIV style='display:none'>
-
+  
     <p style="color:gray;">
-    <b>"Guided Semantic Flow"</b><br>
-    S. Jeon, D. Min, S. Kim, J. Choe, and K. Sohn <br>
-    European Conference on Computer Vision(ECCV), August 2020.<br>
-
+      <b>"SumGraph: Video Summarization via Recursive Graph Modeling"</b><br>
+      J. Park, J. Lee, I. Kim, and K. Sohn <br>
+      European Conference on Computer Vision(ECCV), August 2020.<br>
+  
     </p>
-
   </div>
-
+  <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
+    <li>Congratulations! Sangryul Jeon(Ph.D. Student)'s paper has been accepted in <b>ECCV </b>, <i>July 2020</i></li>
+  </div><DIV style='display:none'>
+  
+    <p style="color:gray;">
+      <b>"Guided Semantic Flow"</b><br>
+      S. Jeon, D. Min, S. Kim, J. Choe, and K. Sohn <br>
+      European Conference on Computer Vision(ECCV), August 2020.<br>
+    </p>
+  </div>
   <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
   <li>Congratulations! Jaehoon Cho (Ph.D. Student)'s paper has been accepted in <b>IEEE Trans. on Image Processing</b>, <i>May 2020</i></li>
   </div><DIV style='display:none'>
-
-      <p style="color:gray;">
+      
+    <p style="color:gray;">
       <b>"Single Image Deraining Using Time-lapse Data"</b> <br>
       J. Cho, S. Kim, D. Min, and K. Sohn <br>
       IEEE Trans. on Image Processing (TIP).<br>
       </p>
-    </div>
-
+  </div>
   <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
   <li>Congratulations! Hanjae Kim (Ph.D. Student)'s paper has been accepted in <b>ICIP</b>, <i>May 2020</i></li>
   </div><DIV style='display:none'>
@@ -907,7 +815,7 @@
   </div><DIV style='display:none'>
 
     <!--p><img src="/images/journal/tpami.png"></p-->
-    <p style="color:gray;">
+    <!-- <p style="color:gray;">
     <b>"Modality-Invariant Image Classification Based on Modality Uniqueness and Dictionary Learning."</b> <br>
     S. Kim, R. Cai, K. Park, S. Kim, and K. Sohn <br>
     IEEE Trans. on Image Processing, November 2016.<br>
@@ -952,13 +860,13 @@
 
     </p>
   </div>
-  <!--li>Congratulations! Seungryong Kim(Ph.D. Student), Kihong Park(Ph.D. Student) and Hangil Choi(M.S. Student) won the <b>Hyundai Hackathon Callenge 2016</b>, <i>Aug. 2016</i></li-->
+  li>Congratulations! Seungryong Kim(Ph.D. Student), Kihong Park(Ph.D. Student) and Hangil Choi(M.S. Student) won the <b>Hyundai Hackathon Callenge 2016</b>, <i>Aug. 2016</i></li
   <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
   <li>Congratulations! Youngjung Kim(Ph.D. Student)'s paper has been accepted for publication in <b>IEEE Trans. on Image Processing</b>, <i>Aug. 2016</i></li>
-  </div><DIV style='display:none'>
+  </div><DIV style='display:none'> -->
 
     <!--p><img src="/images/journal/tpami.png"></p-->
-    <p style="color:gray;">
+    <!-- <p style="color:gray;">
     <b>"Structure selective depth super-resolution for RGB-D cameras."</b> <br>
     Y. Kim, B. Ham, C. Oh, and K. Sohn <br>
     IEEE Trans. on Image Processing, August 2016.<br>
@@ -967,7 +875,7 @@
   </div>
 
   <li>Congratulations! Bumsub Ham(Ph.D.) will join the faculty of <a href="http://www.yonsei.ac.kr/" target="_blank">Yonsei University</a>, <i>Aug. 2016</i></li>
-  <li>Congratulations! Seungryong Kim(Ph.D. Student)'s papers have been accepted in <b>ECCV (spotlight)</b>, <i>Jul. 2016</i></li>
+  <li>Congratulations! Seungryong Kim(Ph.D. Student)'s papers have been accepted in <b>ECCV (spotlight)</b>, <i>Jul. 2016</i></li> -->
 
   <!--
   <li>Donghyun Kim(Ph.D.), Wonjoo Choi(M.S.), and Junghyun Seo(M.S.) have been graduated from Yonsei Univ. <i>Feb. 2016</i></li>
