@@ -1,0 +1,16 @@
+
+<!-- TODO -->
+<div id="popupZone" class="popupZone">
+    <div class="popupZone_in">
+        <div class="popupZone_roll">
+            {% for date in site.data.popup %}
+            <div class="roll"><img src="images/Popup/{{date}}/Slide1.png" alt="" /></div>
+            <div class="roll"><img src="images/Popup/{{date}}/Slide2.png" alt="" /></div>
+            {% endfor %}
+        </div>
+        <p class="poptxt">
+            <input type="checkbox" name="pop_today" id="pop_today"><label for="pop_today">오늘 하루 보지 않음.</label>
+            <span class="" onClick="popupClose();">닫기</span>
+        </p>
+    </div>
+</div>
