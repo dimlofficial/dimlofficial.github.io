@@ -8,7 +8,7 @@
   {% for new in year %}
     <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none' )?'block':'none';
       style="cursor: pointer;">
-      <li> {{new.text}}
+      <li> Congratulations! {{new.text}}
         {% if new.conf %}<b>{{new.conf}}</b>, {% endif %}
         {% if new.date %}<i>{{new.date}}</i>{% endif %}
       </li>
