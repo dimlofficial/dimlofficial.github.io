@@ -1,2 +1,8 @@
-title:
-describe: 
+
+- text: Minsu Kim (Ph.D. Student)'s paper has been accepted in 
+  conf: AAAI
+  date: Dec. 2020
+  _title: "Cross-Domain Grouping and Alignment for Domain Adaptive Semantic Segmentation"
+  _authors: M. Kim, S. Joung, S. Kim, J. Park, I. Kim and K. Sohn
+  _conf_date: The Thirty-Fifth AAAI Conference on Artificial Intelligence, February 2021.
+
