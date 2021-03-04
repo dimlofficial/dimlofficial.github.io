@@ -1,3 +1,17 @@
+# - text:
+#   conf:
+#   date:
+#   _title:
+#   _authors:
+#   _conf_date:
+
+- text: Keunhoon Choi (M.S. Student)'s paper has been accepted in
+  conf: ICRA
+  date: Mar. 2021
+  _title: "Stereo-augmented Depth Completion from a Single RGB-LiDAR image"
+  _authors: K. Choi, S. Jeong, Y. Kim, K. Sohn
+  _conf_date: IEEE International Conference on Robotics and Automation, June 2021
+
 - text: Sanryul Jeon (Ph.D. Student)'s paper has been accepted in 
   conf: CVPR
   date: Mar. 2021
