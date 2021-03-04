@@ -1,93 +1,28 @@
 <h2>News<button id="myBtn">Recent News</button></h2>
 <ul>
-  <div id="overlay">
-    <div id="myModal" class="modal">
-       <div class="modal_header">
-          <h3>&nbsp;DIML Recent News</h3>
-          <span class="close">&times;</span>
-       </div>
-       <div class="modal_content">
-  			   <div class="w3-content w3-section" style="max-width:600px; ">
-  			     <img class="mySlides2" src="/images/Popup/Popup1.PNG" style="width:600px; height:500px">
-             <img class="mySlides2" src="/images/Popup/Popup2.PNG" style="width:600px; height:500px">
-  			     <img class="mySlides2" src="/images/Popup/Popup3.PNG" style="width:600px; height:500px">
-             <img class="mySlides2" src="/images/Popup/Popup4.PNG" style="width:600px; height:500px">
-  			     <img class="mySlides2" src="/images/Popup/Popup5.PNG" style="width:600px; height:500px">
-             <img class="mySlides2" src="/images/Popup/Popup6.PNG" style="width:600px; height:500px">
-             <img class="mySlides2" src="/images/Popup/Popup7.PNG" style="width:600px; height:500px">
-          <div class="w3-center">
-            <div class="w3-section">
-              <button class="w3-btn" onclick="plusDivs(-1)">❮ Prev</button>
-              <button class="w3-btn" onclick="plusDivs(1)">Next ❯</button>
-            </div>
-          </div>
-           </div>
-       </div>
+
+  {% include 2-news_popup.html %}
+
+{% for new in site.data.news %}
+    <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none' )?'block':'none';
+      style="cursor: pointer;">
+      <li> Congratulations! {{new.text}}
+        {% if new.conf %}<b>{{new.conf}}</b>, {% endif %}
+        {% if new.date %}<i>{{new.date}}</i>{% endif %}
+      </li>
     </div>
-  </div>
-  <script>
-    // 모달창 열기 이벤트
-    $("#myBtn").on("click", function(){
-            $("#overlay").css({ visibility:"visible",
-                                       opacity:1});
-    });
+    {% if new._title %}
+    <DIV style='display:none'>
+      <p style="color:gray;">
+        <b>{{new._title}}</b> <br>
+        {{new._authors}} <br>
+        {{new._conf_date}}<br>
+      </p>
+    </div>
+    {% endif %}
+{% endfor %}
 
-    // 모달창 닫기 이벤트
-
-    $(".close").on("click", function(){
-            $("#overlay").css({ visibility:"hidden",
-                                       opacity:0});
-    });
-
-   $(document).on("click", function(e){
-          if( $("#overlay").is(e.target)) {
-           $("#overlay").css({ visibility:"hidden",
-                                       opacity:0 });
-      }
-    });
-  </script>
-
-  <script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-
-  function currentDiv(n) {
-    showDivs(slideIndex = n);
-  }
-
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides2");
-
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length} ;
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    x[slideIndex-1].style.display = "block";
-  }
-  </script>
-
-  <script>
-  var myIndex = 0;
-  carousel();
-
-  function carousel() {
-      var i;
-      var x = document.getElementsByClassName("mySlides2");
-      for (i = 0; i < x.length; i++) {
-         x[i].style.display = "none";
-      }
-      myIndex++;
-      if (myIndex > x.length) {myIndex = 1}
-      x[myIndex-1].style.display = "block";
-      setTimeout(carousel, 2000); // Change image every 2 seconds
-  }
-  </script>
+<!-- Legacies -->
 
   <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
   <li>Congratulations! Sunok Kim (Ph.D.) will join the faculty of <a href="http://www.kau.ac.kr/intro.html" target="_blank">Korea Aerospace University</a>, <i>Jan. 2021</i></li>
