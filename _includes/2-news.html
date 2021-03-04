@@ -4,24 +4,28 @@
   {% include 2-news_popup.html %}
 
 
-  {% for new in site.data.news %}
-  <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none' )?'block':'none';
-    style="cursor: pointer;">
-    <li> {{new.text}} 
-      {% if new.conf %}<b>{{new.conf}}</b>, {% endif %}
-      {% if new.date %}<i>{{new.date}}</i>{% endif %}
-    </li>
-  </div>
-  {% if new._title %}
-  <DIV style='display:none'>
-    <p style="color:gray;">
-      <b>{{new._title}}</b> <br>
-      {{new._authors}} <br>
-      {{new._conf_date}}<br>
-    </p>
-  </div>
-  {% endif %}
+{% for year in site.data.news %}
+  {% for new in year %}
+    <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none' )?'block':'none';
+      style="cursor: pointer;">
+      <li> {{new.text}}
+        {% if new.conf %}<b>{{new.conf}}</b>, {% endif %}
+        {% if new.date %}<i>{{new.date}}</i>{% endif %}
+      </li>
+    </div>
+    {% if new._title %}
+    <DIV style='display:none'>
+      <p style="color:gray;">
+        <b>{{new._title}}</b> <br>
+        {{new._authors}} <br>
+        {{new._conf_date}}<br>
+      </p>
+    </div>
+    {% endif %}
   {% endfor %}
+{% endfor %}
+
+<!-- Legacies -->
 
   <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
   <li>Congratulations! Sunok Kim (Ph.D.) will join the faculty of <a href="http://www.kau.ac.kr/intro.html" target="_blank">Korea Aerospace University</a>, <i>Jan. 2021</i></li>
