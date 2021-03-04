@@ -5,30 +5,30 @@
   _authors: S. Jeon, D. Min, S. Kim, K. Sohn
   _conf_date: IEEE Conf. Computer Vision Pattern Recognition (CVPR), June 2021.
 
-  - text: Somi Jeong (Ph.D. Student)'s paper has been accepted in 
-    conf: CVPR
-    date: Mar. 2021
-    _title: "Memory-guided Unsupervised Image-to-image Translation"
-    _authors: S. Jeong, Y. Kim, E. Lee, K. Sohn
-    _conf_date: IEEE Conf. Computer Vision Pattern Recognition (CVPR), June 2021.
+- text: Somi Jeong (Ph.D. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Mar. 2021
+  _title: "Memory-guided Unsupervised Image-to-image Translation"
+  _authors: S. Jeong, Y. Kim, E. Lee, K. Sohn
+  _conf_date: IEEE Conf. Computer Vision Pattern Recognition (CVPR), June 2021.
 
-  - text: Jungin Park (Ph.D. Student)'s paper has been accepted in 
-    conf: CVPR
-    date: Mar. 2021
-    _title: "Bridge to Answer: Structure-aware Graph Interaction Network for Video Question Answering"
-    _authors: J. Park, J. Lee, K. Sohn
-    _conf_date: IEEE Conf. Computer Vision Pattern Recognition (CVPR), June 2021.
+- text: Jungin Park (Ph.D. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Mar. 2021
+  _title: "Bridge to Answer: Structure-aware Graph Interaction Network for Video Question Answering"
+  _authors: J. Park, J. Lee, K. Sohn
+  _conf_date: IEEE Conf. Computer Vision Pattern Recognition (CVPR), June 2021.
 
-  - text: Jiyoung Lee (Ph.D. Student)'s paper has been accepted in 
-    conf: CVPR
-    date: Mar. 2021
-    _title: "Looking into Your Speech: Learning Cross-modal Affinity for Audio-visual Speech Separation"
-    _authors: J. Lee, S. Chung, S. Kim, H. Kang, K. Sohn
-    _conf_date: IEEE Conf. Computer Vision Pattern Recognition (CVPR), June 2021.
+- text: Jiyoung Lee (Ph.D. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Mar. 2021
+  _title: "Looking into Your Speech: Learning Cross-modal Affinity for Audio-visual Speech Separation"
+  _authors: J. Lee, S. Chung, S. Kim, H. Kang, K. Sohn
+  _conf_date: IEEE Conf. Computer Vision Pattern Recognition (CVPR), June 2021.
 
-  - text: Hanjae Kim (Ph.D. Student)'s paper has been accepted in 
-    conf: CVPR
-    date: Mar. 2021
-    _title: "Prototype-guided Saliency Feature Learning for Person Search"
-    _authors: H. Kim, S. Joung, I. Kim, K. Sohn
-    _conf_date: IEEE Conf. Computer Vision Pattern Recognition (CVPR), June 2021.
+- text: Hanjae Kim (Ph.D. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Mar. 2021
+  _title: "Prototype-guided Saliency Feature Learning for Person Search"
+  _authors: H. Kim, S. Joung, I. Kim, K. Sohn
+  _conf_date: IEEE Conf. Computer Vision Pattern Recognition (CVPR), June 2021.
