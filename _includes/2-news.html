@@ -3,9 +3,7 @@
 
   {% include 2-news_popup.html %}
 
-
-{% for year in site.data.news %}
-  {% for new in year %}
+{% for new in site.data.news %}
     <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none' )?'block':'none';
       style="cursor: pointer;">
       <li> Congratulations! {{new.text}}
@@ -22,7 +20,6 @@
       </p>
     </div>
     {% endif %}
-  {% endfor %}
 {% endfor %}
 
 <!-- Legacies -->
