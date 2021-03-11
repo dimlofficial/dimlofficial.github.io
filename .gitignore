@@ -5,3 +5,7 @@ backup/
 #IDE
 .vscode/
 .favorites.json
+
+#cache
+.jekyll-cache/
+.sass-cache/
