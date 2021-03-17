@@ -7,7 +7,7 @@
 #   conf_date:
 
 - text: Eungbean Lee (Ph.D. Student)'s paper has been accepted in 
-  conf: IGARSS
+  conf: IGARSS (oral)
   date: Mar. 2021
   _title: "Learning Building Extraction in SAR Image with Privileged Knowledge Distillation"
   _authors: E. Lee, S.Jeong, K. Sohn
