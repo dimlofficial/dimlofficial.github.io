@@ -1,7 +1,7 @@
 {% for new in site.data.news %}
 <div class="title" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'; style="cursor: pointer;">
     <li> Congratulations! {{new.text}}
-        {% if new.conf %}<b>{{new.conf}}</b>, {% endif %}
+        {% if new.conf %}<b>{{new.conf}}{% if new._oral %} (oral){% endif %}</b>,{% endif %}
         {% if new.date %}<i>{{new.date}}</i>{% endif %}
     </li>
 </div><div style='display:none'>

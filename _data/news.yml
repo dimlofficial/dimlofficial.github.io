@@ -1,18 +1,20 @@
 # - text:
 #   conf:
 #   date:
-#   title:
-#   authors:
-#   conf_full:
-#   conf_date:
+#   _title:
+#   _authors:
+#   _conf_full:
+#   _conf_date:
+#   _oral : True
 
 - text: Eungbean Lee (Ph.D. Student)'s paper has been accepted in 
-  conf: IGARSS (oral)
+  conf: IGARSS
   date: Mar. 2021
   _title: "Learning Building Extraction in SAR Image with Privileged Knowledge Distillation"
   _authors: E. Lee, S.Jeong, K. Sohn
   _conf_full: International Geoscience and Remote Sensing Symposium
   _conf_date: July 2021
+  _oral: True
 
 - text: Keunhoon Choi (M.S. Student)'s paper has been accepted in
   conf: ICRA
