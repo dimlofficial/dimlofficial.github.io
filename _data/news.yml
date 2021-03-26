@@ -6,6 +6,14 @@
 #   _conf_full:
 #   _conf_date:
 #   _oral : True
+  
+- text: Seungryong Kim (Ph.D.)'s paper has been accepted in 
+  conf: TPAMI
+  date: Mar. 2021
+  _title: "On the Confidence of Stereo Matching in a Deep-learning Era: a Quantitative Evaluation"
+  _authors: M. Poggi, S. Kim, F. Tosi, S. Kim, F. Aleotti, D. Min, K. Sohn, S. Mattoccia
+  _conf_full: IEEE Trans. on Pattern Analysis and Machine Intelligence
+  _conf_date: 2021
 
 - text: Eungbean Lee (Ph.D. Student)'s paper has been accepted in 
   conf: IGARSS
