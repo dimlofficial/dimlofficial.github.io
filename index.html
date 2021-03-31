@@ -6,8 +6,10 @@ popup-turned-on: true
 
 {% if page.popup-turned-on == true %}
 <script>
-	window.open('../popups/0_1_main.html', 'window', 'width=700, height=620, left=0, top=200, resizable=0, location=no, status = no')
-	window.open('../popups/0_2_postdoc.html', 'window2', 'width=700, height=620, left=200, top=400, resizable=0, location=no, status = no')
+	window.open('../popups/0_2_postdoc.html', 'window2', 'width=700, height=620, left=100, top=300, resizable=0, location=no, status = no, directories=no')
+	window.open('../popups/0_1_main.html', 'window', 'width=700, height=620, left=0, top=200, resizable=0, location=no, status = no, directories=no')
+	window.focus();
+	
 </script>
 	
 {% endif %}
