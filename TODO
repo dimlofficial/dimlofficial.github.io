@@ -1,0 +1,9 @@
+banner
+
+		<!-- {% for image in site.static_files %}
+			{% if image.path contains 'banners/2020' %}
+				<div class="roll"><img src="{{ site.baseurl }}{{ image.path }}" alt=""/></div>
+			{% endif %}
+		{% endfor %}
+
+        
