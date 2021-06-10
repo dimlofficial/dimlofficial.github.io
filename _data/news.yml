@@ -6,7 +6,31 @@
 #   _conf_full:
 #   _conf_date:
 #   _oral : True
-  
+
+- text: Seungryong Kim (Ph.D.)'s paper has been accepted in 
+  conf: TPAMI
+  date: June. 2021
+  _title: "Dense Cross-Modal Correspondence Estimation With the Deep Self-Correlation Descriptor"
+  _authors: S. Kim, D. Min, S. Lin, Kwanghoon Sohn
+  _conf_full: IEEE Trans. on Pattern Analysis and Machine Intelligence
+  _conf_date: July. 2021
+
+- text: Jinhyun Jang (MS Student)'s paper has been accepted in
+  conf: ICIP
+  date: Mar. 2021
+  _title: "Semantic-Aware Network for Aerial-to-Ground Image Synthesis"
+  _authors: J. Jang, T. Song and K. Sohn
+  _conf_full: IEEE International Conference on Image Processing
+  _conf_date: September 2021
+
+- text: Jin Kim (MS Student)'s paper has been accepted in
+  conf: ICIP
+  date: Mar. 2021
+  _title: "Self-Balanced Learning for Domain Generalization"
+  _authors: J. Kim, J. Lee, J. Park, D. Min and K. Sohn
+  _conf_full: IEEE International Conference on Image Processing
+  _conf_date: September 2021
+
 - text: Seungryong Kim (Ph.D.)'s paper has been accepted in 
   conf: TPAMI
   date: Mar. 2021
