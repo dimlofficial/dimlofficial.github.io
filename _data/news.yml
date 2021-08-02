@@ -15,6 +15,15 @@
   _conf_full: EEE International Conference on Computer Vision
   _conf_date: October. 2021
 
+- text: Hunsang Lee (Ph.D. Student)'s paper has been accepted in 
+  conf: ICCV
+  date: July. 2021
+  _title: "Adaptive Confidence Thresholding for Monocular Depth Estimation"
+  _authors: H. Choi, H. Lee, S. Kim, S. Kim, K. Sohn, D. Min
+  _conf_full: EEE International Conference on Computer Vision
+  _conf_date: October. 2021
+
+
 - text: Seungryong Kim (Ph.D.)'s paper has been accepted in 
   conf: TPAMI
   date: June. 2021
