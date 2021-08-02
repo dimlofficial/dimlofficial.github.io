@@ -7,11 +7,19 @@
 #   _conf_date:
 #   _oral : True
 
+- text: Sunghun Joung (Ph.D. Student)'s paper has been accepted in 
+  conf: ICCV
+  date: July. 2021
+  _title: "Learning Canonical 3D Object Representation for Fine-grained Recognition"
+  _authors: S. Joung, S. Kim, M. Kim, I. Kim, K. Sohn
+  _conf_full: EEE International Conference on Computer Vision
+  _conf_date: October. 2021
+
 - text: Seungryong Kim (Ph.D.)'s paper has been accepted in 
   conf: TPAMI
   date: June. 2021
   _title: "Dense Cross-Modal Correspondence Estimation With the Deep Self-Correlation Descriptor"
-  _authors: S. Kim, D. Min, S. Lin, Kwanghoon Sohn
+  _authors: S. Kim, D. Min, S. Lin, K. Sohn
   _conf_full: IEEE Trans. on Pattern Analysis and Machine Intelligence
   _conf_date: July. 2021
 
