@@ -1,9 +1,7 @@
-banner
 
-		<!-- {% for image in site.static_files %}
-			{% if image.path contains 'banners/2020' %}
-				<div class="roll"><img src="{{ site.baseurl }}{{ image.path }}" alt=""/></div>
-			{% endif %}
-		{% endfor %}
-
-        
+학기마다 업데이트 할 것들
+1. Members - 신입생 추가, 각 멤버 학기 업데이트, 방장 변경
+2. Lecture - 교수님 수업 업데이트
+3. Contact - 방장 변경
+4. Main - Recent Activities 업데이트
+5. Professor - Selected Pub. 업데이트
