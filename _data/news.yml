@@ -6,13 +6,42 @@
 #   _conf_full:
 #   _conf_date:
 #   _oral : True
+#
+# [Output Format]==============================================================================
+# Congratulations! ${text} ${conf}, ${date}
+# ${_title}
+# ${_authors}
+# ${_conf_full} (${conf}), ${_conf_date}
+#
+# [Output Example]=============================================================================
+# Congratulations! Sunghun Joung (Ph.D. Student)'s paper has been accepted in ICCV, July. 2021
+# "Learning Canonical 3D Object Representation for Fine-grained Recognition"
+# S. Joung, S. Kim, M. Kim, I. Kim, K. Sohn
+# IEEE International Conference on Computer Vision (ICCV), October. 2021.
+#
+
+- text: Sangryul Jeon (Ph.D. Student)'s paper has been accepted in 
+  conf: TPAMI
+  date: Oct. 2021
+  _title: "Pyramidal Semantic Correspondence Networks"
+  _authors: S. Jeon, S. Kim, D. Min and K. Sohn
+  _conf_full: IEEE Trans. on Pattern Analysis and Machine Intelligence
+  _conf_date: October. 2021
+
+- text: Sangryul Jeon (Ph.D. Student)'s paper has been accepted in 
+  conf: NeurIPS
+  date: Dec. 2021
+  _title: "Semantic Correspondence with Transformers"
+  _authors: S. Cho, S. Hong, S. Jeon, Y. Lee, K. Sohn, S. Kim
+  _conf_full: Conference on Neural Information Processing Systems
+  _conf_date: October. 2021
 
 - text: Sunghun Joung (Ph.D. Student)'s paper has been accepted in 
   conf: ICCV
   date: July. 2021
   _title: "Learning Canonical 3D Object Representation for Fine-grained Recognition"
   _authors: S. Joung, S. Kim, M. Kim, I. Kim, K. Sohn
-  _conf_full: EEE International Conference on Computer Vision
+  _conf_full: IEEE International Conference on Computer Vision
   _conf_date: October. 2021
 
 - text: Hunsang Lee (Ph.D. Student)'s paper has been accepted in 
@@ -20,7 +49,7 @@
   date: July. 2021
   _title: "Adaptive Confidence Thresholding for Monocular Depth Estimation"
   _authors: H. Choi, H. Lee, S. Kim, S. Kim, K. Sohn, D. Min
-  _conf_full: EEE International Conference on Computer Vision
+  _conf_full: IEEE International Conference on Computer Vision
   _conf_date: October. 2021
 
 
