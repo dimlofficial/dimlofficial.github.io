@@ -1,0 +1,82 @@
+
+# Domestic
+domestic:
+- who: 손광훈, 김진
+  what: 메모리를 이용하는 의미론적 영상 분할 장치 및 방법
+  number: 10-2021-0179588
+  when: Dec. 21
+- who: 손광훈, 김권영
+  what: 도메인에 강건한 깊이 추정 장치 및 방법
+  number: 10-2021-0177205
+  when: Dec. 21
+- who: 손광훈, 정소미
+  what: 클래스 인지 메모리 네트워크 기반 영상 변환 장치 및 방법
+  number: 10-2021-0168365
+  when: Nov. 21
+- who: 손광훈, 장진현
+  what: 공중-지상 이미지 합성 장치 및 방법
+  number: 10-2021-0166722
+  when: Nov. 21
+- who: 손광훈, 김한재
+  what: 프로토타입 기반 중요 특징자 추출을 통한 인물 탐색 장치 및 방법
+  number: 10-2021-0166717
+  when: Nov. 21
+- who: 손광훈, 최근훈
+  what: 깊이맵 완성 장치 및 방법
+  number: 10-2021-0101957
+  when: Aug. 21
+- who: 손광훈, 이지영
+  what: 멀티모달 융합 기반 감정 인식 장치 및 방법
+  number: 10-2020-0180996
+  when: Dec. 20
+- who: 손광훈, 김선옥
+  what: 생성적 적대 신경망을 이용한 스테레오 매칭 신뢰도 추정 장치 및 방법
+  number: 10-2020-0162095
+  when: Nov. 20
+- who: 손광훈, 정소미
+  what: 다중 스펙트럼 영상 매칭 장치 및 방법
+  number: 10-2020-0101670
+  when: Aug. 20
+- who: 손광훈, 김한재
+  what: 동적 커널 기반 객체 검출 장치 및 방법
+  number: 10-2020-0109800
+  when: Aug. 20
+- who: 손광훈, 정성훈
+  what: 원통형 컨볼루션 네트워크 연산 장치와 이를 이용한 객체 인식 및 시점 추정장치 및 방법
+  number: 10-2020-0101612
+  when: Aug. 20
+
+international:
+# International
+- who: 손광훈,최근훈
+  what: 깊이맵 완성 장치 및 방법
+  number: PCT/KR2021/019074
+  when: Dec. 21
+- who: 손광훈,정성훈
+  what: 원통형 컨볼루션 네트워크 연산 장치와 이를 이용한 객체 인식 및 시점 추정장치 및 방법
+  number: 17/468,948
+  when: Sep. 21
+- who: 손광훈,최성일
+  what: 이미지 채움 장치 및 방법
+  number: PCT/KR2020/011074
+  when: Aug. 20
+- who: 손광훈,정성훈
+  what: 원통형 컨볼루션 네트워크 연산 장치와 이를 이용한 객체 인식 및 시점 추정장치 및 방법
+  number: PCT/KR2020/095103
+  when: Aug. 20
+- who: 손광훈,박정인
+  what: 재귀 그래프 모델링을 통한 비디오 요약 생성 장치 및 방법
+  number: PCT/KR2020/010755
+  when: Aug. 20
+- who: 손광훈,박정인
+  what: 비디오 행동 인식 및 행동 구간 탐지 장치 및 방법
+  number: PCT/KR2019/004798
+  when: Apr. 19
+- who: 손광훈,박기홍
+  what: 깊이 정보 생성을 위한 학습 장치 및 방법과 깊이 정보 생성 장치 및 방법 그리고 이에 관한 기록 매체
+  number: PCT/KR2018/001156
+  when: Jan. 18
+- who: 손광훈,김선옥
+  what: 스테레오 매칭을 통한 깊이값의 신뢰도 측정 방법 및 장치
+  number: PCT/KR2017/003888
+  when: Apr. 17
