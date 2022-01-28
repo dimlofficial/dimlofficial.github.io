@@ -19,6 +19,13 @@
 # S. Joung, S. Kim, M. Kim, I. Kim, K. Sohn
 # IEEE International Conference on Computer Vision (ICCV), October. 2021.
 #
+- text: Somi Jeong (Ph.D.)'s paper has been accepted in 
+  conf: ICASSP
+  date: Jan. 2022
+  _title: "Multi-Domain Unsupervised Image-to-image Translation with Appearance Adaptive Convolution"
+  _authors: S. Jeong, J. Lee and K. Sohn
+  _conf_full: IEEE International Conference on Acoustics, Speech and Signal Processing
+  _conf_date: May. 2022
 
 - text: Byungnam Kim (Ph.D. Student)'s paper has been accepted in 
   conf: ICCE
@@ -26,7 +33,7 @@
   _title: "Multi-Exposure Image Fusion Using Cross-Attention Mechanism"
   _authors: B. Kim, H. Jung and K. Sohn
   _conf_full: IEEE 40th International Conference on Consumer Electronics
-  _conf_date: January. 2021
+  _conf_date: January. 2022
 
 - text: Jaehoon Cho (Ph.D. Student)'s paper has been accepted in 
   conf: BMVC
