@@ -19,6 +19,31 @@
 # S. Joung, S. Kim, M. Kim, I. Kim, K. Sohn
 # IEEE International Conference on Computer Vision (ICCV), October. 2021.
 #
+
+- text: Jungin Park (Ph.D. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Mar. 2022
+  _title: "Probabilistic Representations for Video Contrastive Learning"
+  _authors: J. Park, J. Lee, I. Kim and K. Sohn
+  _conf_full: IEEE Conf. Computer Vision Pattern Recognition
+  _conf_date: June 2022
+
+- text: Jin Kim (M.S. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Mar. 2022
+  _title: "Pin the Memory: Learning to Generalize Semantic Segmentation"
+  _authors: J. Kim, J. Lee, J. Park, D. Min and K. Sohn
+  _conf_full: IEEE Conf. Computer Vision Pattern Recognition
+  _conf_date: June 2022
+  
+- text: Hunsang Lee (Ph.D. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Mar. 2022
+  _title: "KNN Local Attention for Image Restoration"
+  _authors: H. Lee, H. Choi, K. Sohn and D. Min
+  _conf_full: IEEE Conf. Computer Vision Pattern Recognition
+  _conf_date: June 2022
+
 - text: Somi Jeong (Ph.D.)'s paper has been accepted in 
   conf: ICASSP
   date: Jan. 2022
