@@ -19,6 +19,14 @@
     # S. Joung, S. Kim, M. Kim, I. Kim, K. Sohn
     # IEEE International Conference on Computer Vision (ICCV), October. 2021.
     #
+    - text: J. Cho (Ph.D.)'s paper has been accepted in 
+      conf: TIP
+      date: May. 2022
+      _title: "Memory-guided Image De-raining Using Time-Lapse Data"
+      _authors: J. Cho, S. Kim and K. Sohn
+      _conf_full: IEEE Trans. on Image Processing
+      _conf_date: Early Access
+    
     - text: Jungin Park (Ph.D. Student)'s paper has been accepted in 
       conf: CVPR
       date: Mar. 2022
