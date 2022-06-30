@@ -19,6 +19,15 @@
     # S. Joung, S. Kim, M. Kim, I. Kim, K. Sohn
     # IEEE International Conference on Computer Vision (ICCV), October. 2021.
     #
+
+    - text: Taeyong Song (Ph.D. Student)'s paper has been accepted in 
+      conf: GRSL
+      date: June. 2022
+      _title: "Shape-Robust SAR Ship Detection via Context-Preserving Augmentation and Deep Contrastive RoI Learning,"
+      _authors: T. Song, S. Kim and K. Sohn
+      _conf_full: IEEE Geoscience and Remote Sensing Letters
+      _conf_date: Early Access
+
     - text: J. Cho (Ph.D.)'s paper has been accepted in 
       conf: TIP
       date: May. 2022
