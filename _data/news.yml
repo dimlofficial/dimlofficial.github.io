@@ -59,7 +59,23 @@
       _authors: H. Lee, H. Choi, K. Sohn and D. Min
       _conf_full: IEEE Conf. Computer Vision Pattern Recognition
       _conf_date: June 2022
-    
+
+    - text: Hyungjun Kwon (Ph.D. Student)'s paper has been accepted in 
+      conf: ICIP
+      date: Mar. 2022
+      _title: "Mask-guided Attention and Episode Adaptive Weights for Few-shot Segmentation"
+      _authors: H. Kwon, T. Song, S. Kim and K. Sohn
+      _conf_full: IEEE International Conference on Image Processing
+      _conf_date: October 2022
+
+    - text: Jihyun Kim (Ph.D. Student)'s paper has been accepted in 
+      conf: ICIP
+      date: Mar. 2022
+      _title: "PASTS: Toward Effective Distilling Transformer for Panoramic Semantic Segmentation"
+      _authors: J. Kim, S. Jeong and K. Sohn
+      _conf_full: IEEE International Conference on Image Processing
+      _conf_date: October 2022
+
     - text: Somi Jeong (Ph.D.)'s paper has been accepted in 
       conf: ICASSP
       date: Jan. 2022
