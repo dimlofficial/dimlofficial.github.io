@@ -19,6 +19,21 @@
     # S. Joung, S. Kim, M. Kim, I. Kim, K. Sohn
     # IEEE International Conference on Computer Vision (ICCV), October. 2021.
     #
+    - text: Kwonyoung Kim (Ph.D. Student)'s paper has been accepted in 
+      conf: ECCV
+      date: July. 2022
+      _title: "PointFix: Learning to Fix Domain Bias for Robust Online Stereo Adaptation"
+      _authors: K. Kim, J. Park, J. Lee, D. Min, and K. Sohn
+      _conf_full: European Conference on Computer Vision
+      _conf_date: October, 2022
+    
+    - text: Eungbean Lee (Ph.D. Student)'s paper has been accepted in 
+      conf: GRSL
+      date: July. 2022
+      _title: "Semantic Equalization Learning for Semi-supervised SAR Building Segmentation"
+      _authors: E. Lee, S. Jeong, J. Kim and K. Sohn
+      _conf_full: IEEE Geoscience and Remote Sensing Letters
+      _conf_date: Early Access
 
     - text: Taeyong Song (Ph.D. Student)'s paper has been accepted in 
       conf: GRSL
@@ -35,7 +50,23 @@
       _authors: J. Cho, S. Kim and K. Sohn
       _conf_full: IEEE Trans. on Image Processing
       _conf_date: Early Access
-    
+
+    - text: Hyungjun Kwon (Ph.D. Student)'s paper has been accepted in 
+      conf: ICIP
+      date: Mar. 2022
+      _title: "Mask-guided Attention and Episode Adaptive Weights for Few-shot Segmentation"
+      _authors: H. Kwon, T. Song, S. Kim and K. Sohn
+      _conf_full: IEEE International Conference on Image Processing
+      _conf_date: October 2022
+
+    - text: Jihyun Kim (Ph.D. Student)'s paper has been accepted in 
+      conf: ICIP
+      date: Mar. 2022
+      _title: "PASTS: Toward Effective Distilling Transformer for Panoramic Semantic Segmentation"
+      _authors: J. Kim, S. Jeong and K. Sohn
+      _conf_full: IEEE International Conference on Image Processing
+      _conf_date: October 2022
+
     - text: Jungin Park (Ph.D. Student)'s paper has been accepted in 
       conf: CVPR
       date: Mar. 2022
@@ -59,22 +90,6 @@
       _authors: H. Lee, H. Choi, K. Sohn and D. Min
       _conf_full: IEEE Conf. Computer Vision Pattern Recognition
       _conf_date: June 2022
-
-    - text: Hyungjun Kwon (Ph.D. Student)'s paper has been accepted in 
-      conf: ICIP
-      date: Mar. 2022
-      _title: "Mask-guided Attention and Episode Adaptive Weights for Few-shot Segmentation"
-      _authors: H. Kwon, T. Song, S. Kim and K. Sohn
-      _conf_full: IEEE International Conference on Image Processing
-      _conf_date: October 2022
-
-    - text: Jihyun Kim (Ph.D. Student)'s paper has been accepted in 
-      conf: ICIP
-      date: Mar. 2022
-      _title: "PASTS: Toward Effective Distilling Transformer for Panoramic Semantic Segmentation"
-      _authors: J. Kim, S. Jeong and K. Sohn
-      _conf_full: IEEE International Conference on Image Processing
-      _conf_date: October 2022
 
     - text: Somi Jeong (Ph.D.)'s paper has been accepted in 
       conf: ICASSP
