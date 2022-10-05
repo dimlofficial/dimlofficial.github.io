@@ -1,9 +1,28 @@
 {
     "favorites.resources": [
-        "_includes/3-recent.html",
-        "_includes/2-news.html",
-        "_data/news.yml",
-        "pages/pub_intljournal.html",
-        "pages/pub_patents.html"
+        {
+            "filePath": "_includes/3-recent.html",
+            "group": "Default"
+        },
+        {
+            "filePath": "_includes/2-news.html",
+            "group": "Default"
+        },
+        {
+            "filePath": "_data/news.yml",
+            "group": "Default"
+        },
+        {
+            "filePath": "pages/pub_intljournal.html",
+            "group": "Default"
+        },
+        {
+            "filePath": "pages/pub_patents.html",
+            "group": "Default"
+        },
+        {
+            "filePath": "pages/pub_intlconf.html",
+            "group": "Default"
+        }
     ]
 }
