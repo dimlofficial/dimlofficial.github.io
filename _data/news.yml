@@ -20,10 +20,27 @@
     # IEEE International Conference on Computer Vision (ICCV), October. 2021.
     #
     
+
+    - text: Sunghun Park (M.S.)'s paper has been accepted in 
+      conf: WACV
+      date: Nov. 2022
+      _title: "Normality Guided Multiple Instance Learning for Weakly Supervised Video Anomaly Detection,"
+      _authors: S. Park, H. Kim, M. Kim, D. Kim, and K. Sohn.
+      _conf_full: IEEE/CVF Winter Conference on Applications of Computer Vision
+      _conf_date: January. 2023
+
+    - text: Dahye Kim (M.S.)'s paper has been accepted in 
+      conf: WACV
+      date: Nov. 2022
+      _title: "Language-free Training for Zero-shot Video Grounding"
+      _authors: D. Kim, J. Park,  J. Lee, S. Park, and K. Sohn.
+      _conf_full: IEEE/CVF Winter Conference on Applications of Computer Vision
+      _conf_date: January. 2023
+
     - text: Sangryul Jeon (Ph.D.)'s paper has been accepted in 
       conf: BMVC
       date: Nov. 2022
-      _title: “COAT: Correspondence-driven Object Appearance Transfer”
+      _title: "COAT: Correspondence-driven Object Appearance Transfer"
       _authors: S. Jeon, Z. Zhang, Z. Lin, S. Cohen, Z. Ding and K. Sohn
       _conf_full: British Machine Vision Conference
       _conf_date: November, 2022
