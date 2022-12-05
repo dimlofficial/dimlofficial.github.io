@@ -1,5 +1,5 @@
 # DIML Homepage powered by Jekyll
-Migration by (Eungbean Lee)[https://eungbean.io]
+Migration by [Eungbean Lee](https://eungbean.io)
 
 ## Useage
 
