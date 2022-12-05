@@ -4,7 +4,7 @@ Migration by [Eungbean Lee](https://eungbean.io)
 ## Useage
 
 [*] 표시된 폴더를 주로 수정합니다.
-```
+```sh
 .
 ├── _data
 │   ├── assets.yml                  : css, js 정보
@@ -40,7 +40,7 @@ Migration by [Eungbean Lee](https://eungbean.io)
 ## Procedure
 
 #### 1. pages 업데이트
-```
+```sh
 .
 ├── pages 
     ├── pub_domesconf.html      : [*]논문-국내학회
@@ -51,7 +51,7 @@ Migration by [Eungbean Lee](https://eungbean.io)
 
 #### 2. News update
 
-```
+```sh
 .
 ├── _data 
     └─ news.html     : [*]메인화면 News 데이터
