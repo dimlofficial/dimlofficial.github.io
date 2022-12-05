@@ -71,7 +71,10 @@ git add . && git commit -m "document update" && git push
 
 
 ## Changelogs
----
+
+### 22-12-05
+* Delegation of Manager
+  - Eungbean Lee → Jin Kim
 ### 21-03-04
 * 메인화면 News 섹션 하드코딩 되어있는 곳을 Liquid Script로 Reformulation
   - ```_include/2-news_script.html``` 에 구현해 ```_include/2-news.html```에 삽입
