@@ -1,4 +1,6 @@
 # DIML Homepage powered by Jekyll
+Migration by (Eungbean Lee)[https://eungbean.io]
+
 ## Useage
 
 [*] 표시된 폴더를 주로 수정합니다.
