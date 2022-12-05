@@ -60,9 +60,7 @@ todo:
 
 #### 3. Push
 ```sh
-git add .
-git commit -m "update"
-git push
+git add . && git commit -m "document update" && git push
 ```
 
 
