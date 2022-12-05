@@ -1,7 +1,4 @@
-todo:
-
-/images/member 에 사진추가
-
+# DIML Homepage powered by Jekyll
 ## Useage
 
 [*] 표시된 폴더를 주로 수정합니다.
