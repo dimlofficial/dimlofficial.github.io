@@ -1,5 +1,4 @@
 # DIML Homepage powered by Jekyll
-Migration by [Eungbean Lee](https://eungbean.io)
 
 ## Useage
 
@@ -61,14 +60,6 @@ Migration by [Eungbean Lee](https://eungbean.io)
 ```sh
 git add . && git commit -m "document update" && git push
 ```
-
-
-## Toss Log
-응빈 migration
-상률이 토스받음
-응빈이가 토스해줌
-
-
 
 ## Changelogs
 
