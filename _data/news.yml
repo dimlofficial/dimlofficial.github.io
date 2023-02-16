@@ -24,7 +24,7 @@
 # IEEE International Conference on Computer Vision (ICCV), October. 2021.
 #
 
-- text: Minsu Kim (M.S.)'s paper has been accepted in 
+- text: Minsu Kim (Ph.D. Student)'s paper has been accepted in 
   conf: GRSL
   date: Nov. 2022
   _title: "Learning Semantic Keypoints for Object Detection in Aerial Images,"
@@ -72,7 +72,7 @@
   _conf_full: IEEE Geoscience and Remote Sensing Letters
   _conf_date: Early Access
 
-- text: Taeyong Song (Ph.D. Student)'s paper has been accepted in 
+- text: Taeyong Song (Ph.D.)'s paper has been accepted in 
   conf: GRSL
   date: June. 2022
   _title: "Shape-Robust SAR Ship Detection via Context-Preserving Augmentation and Deep Contrastive RoI Learning,"
@@ -120,7 +120,7 @@
   _conf_full: IEEE Conf. Computer Vision Pattern Recognition
   _conf_date: June 2022
   
-- text: Hunsang Lee (Ph.D. Student)'s paper has been accepted in 
+- text: Hunsang Lee (Ph.D.)'s paper has been accepted in 
   conf: CVPR
   date: Mar. 2022
   _title: "KNN Local Attention for Image Restoration"
@@ -136,7 +136,7 @@
   _conf_full: IEEE International Conference on Acoustics, Speech and Signal Processing
   _conf_date: May. 2022
 
-- text: Taeyong Song (Ph.D. Student)'s paper has been accepted in 
+- text: Taeyong Song (Ph.D.)'s paper has been accepted in 
   conf: RadarConf
   date: Mar. 2022
   _title: "Context-Preserving Instance-Level Augmentation and Deformable Convolution Networks for SAR Ship Detection"
@@ -160,7 +160,7 @@
   _conf_full: IEEE 40th International Conference on Consumer Electronics
   _conf_date: January. 2022
 
-- text: Jaehoon Cho (Ph.D. Student)'s paper has been accepted in 
+- text: Jaehoon Cho (Ph.D.)'s paper has been accepted in 
   conf: BMVC
   date: Oct. 2021
   _title: "Wide and Narrow: Video Prediction from Context and Motion"
