@@ -63,7 +63,12 @@ git add . && git commit -m "document update" && git push
 
 ## Changelogs
 
-### 22-12-05
+### 23-03-01
+* Delegation of Manager
+  - Jin Kim → Kwon Hyungjun
+
+
+### 22-11-05
 * Delegation of Manager
   - Eungbean Lee → Jin Kim
 
