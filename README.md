@@ -67,6 +67,7 @@ git add . && git commit -m "document update" && git push
 * Delegation of Manager
   - Jin Kim → Kwon Hyungjun
 
+---
 
 ### 22-11-05
 * Delegation of Manager
