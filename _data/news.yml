@@ -23,7 +23,54 @@
 # S. Joung, S. Kim, M. Kim, I. Kim, K. Sohn
 # IEEE International Conference on Computer Vision (ICCV), October. 2021.
 #
-
+- text: Hyeongjun Kwon (M.S. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Feb. 2023
+  _title: "Probabilistic Prompt Learning for Dense Prediction,"
+  _authors: T. Song, S. Jeong, J. Kim, J. Jand, and K. Sohn.
+  _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  _conf_date: Jun. 2023
+  
+ - text: Hyeongjun Kwon (M.S. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Feb. 2023
+  _title: "Probabilistic Prompt Learning for Dense Prediction,"
+  _authors: T. Song, S. Jeong, J. Kim, J. Jang, and K. Sohn.
+  _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  _conf_date: Jun. 2023
+  
+ - text: Taeyong Song (Ph.D. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Feb. 2023
+  _title: "Unsupervised Deep Asymmetric Stereo Matching with Spatially-Adaptive Self-Similarity,"
+  _authors: S. Kim, and K. Sohn.
+  _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  _conf_date: Jun. 2023
+  
+ - text: Jungin Park (Ph.D. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Feb. 2023
+  _title: "Dual-path Adaptation from Image to Video Transformers,"
+  _authors: J. Lee, and K. Sohn.
+  _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  _conf_date: Jun. 2023
+  
+ - text: Minsu Kim (Ph.D. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Feb. 2023
+  _title: "PartMix: Regularization Strategy to Learn Part Discovery for Visible-Infrared Person Re-identification,"
+  _authors: S. Kim, J. Park, S. Park, and K. Sohn.
+  _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  _conf_date: Jun. 2023
+ 
+ - text: Hyesong Choi(Ph.D. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Feb. 2023
+  _title: "Local-guided Global: Paired Similarity Representation for Visual Reinforcement Learning,"
+  _authors: H. Lee, W. Song, K. Sohn, and D. Min.
+  _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  _conf_date: Jun. 2023
+  
 - text: Minsu Kim (Ph.D. Student)'s paper has been accepted in 
   conf: GRSL
   date: Nov. 2022
