@@ -28,6 +28,14 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
+- text: Wonil Song (Ph.D. Student)'s paper has been accepted in 
+  conf: ESWA
+  date: May. 2023
+  _title: "Learning disentangled skills for hierarchical reinforcement learning through trajectory autoencoder with weak labels,"
+  _authors: W. Song, S. Jeon, H. Choi, K. Sohn, and D. Min
+  _conf_full: Expert Systems with Applications
+  _conf_date: Early Access
+  
 - text: Hyeongjun Kwon (M.S. Student)'s paper has been accepted in 
   conf: CVPR
   date: Feb. 2023
