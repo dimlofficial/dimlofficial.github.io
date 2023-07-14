@@ -28,6 +28,22 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
+- text: Jinhyun Jang (Ph.D. Student)'s paper has been accepted in 
+  conf: ICCV
+  date: July. 2023
+  _title: "Knowing Where to Focus: Event-aware Transformer for Video Grounding"
+  _authors: J. Jang, J. Park, J. Kim, H. Kwon, K. Sohn
+  _conf_full: IEEE International Conference on Computer Vision
+  _conf_date: October. 2023
+  
+- text: Hanjae Kim  (Ph.D. Student)'s paper has been accepted in 
+  conf: ICCV
+  date: July. 2023
+  _title: "Contextual, Discriminative, and Unbiased Compositional Zero-Shot Learning"
+  _authors: H. Kim, J. Lee, S. Park, K. Sohn
+  _conf_full: IEEE International Conference on Computer Vision
+  _conf_date: October. 2023
+  
 - text: Wonil Song (Ph.D. Student)'s paper has been accepted in 
   conf: ESWA
   date: May. 2023
