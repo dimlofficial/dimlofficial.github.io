@@ -28,6 +28,30 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
+- text: Junyoung Park (Ph.D. Student)'s paper has been accepted in 
+  conf: WACV
+  date: October. 2024
+  _title: "Layer-wise Auto-Weighting for Non-Stationary Test-Time Adaptation"
+  _authors: J. Park, J. Kim, H. Kwon, I. Yoon, K. Sohn
+  _conf_full: IEEE/CVF Winter Conference on Applications of Computer Vision
+  _conf_date: January. 2024
+
+- text: Yeji Choi (Ph.D. Student)'s paper has been accepted in 
+  conf: ICIP
+  date: August. 2023
+  _title: "Face Photo-sketch Synthesis via Domain-invariant Feature Embedding"
+  _authors: Y. Choi, K. Sohn, I. Kim
+  _conf_full: IEEE International Conference on Image Processing
+  _conf_date: October. 2023
+
+- text: Sangryul Jeon (Ph.D.) will join the faculty of
+  conf: <a href="https://www.pusan.ac.kr/" target="_blank">Pusan National University</a>
+  date: August. 2023
+  # _title: "Face Photo-sketch Synthesis via Domain-invariant Feature Embedding"
+  # _authors: Y. Choi, K. Sohn, I. Kim
+  # _conf_full: IEEE International Conference on Image Processing
+  # _conf_date: October. 2023
+
 - text: Jinhyun Jang (Ph.D. Student)'s paper has been accepted in 
   conf: ICCV
   date: July. 2023
