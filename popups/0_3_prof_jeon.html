@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus��">
+	<style>
+		*{margin:0; padding:0; font-size:15px; text-align:center; }
+		/* #header{height:150px; background:#555;line-height:150px;} */
+		#content{height:800px; background:#ebebeb;line-height:800px;}
+		/* #footer{height:100px; background:#222;line-height:100px;} */
+
+
+
+
+	/*** �˾� ***/
+		#popupZone{position:fixed; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.85); z-index:900;}
+		#popupZone .popupZone_in{ max-width:100%; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); margin: 0;}
+		.popupZone_roll .roll img{max-width:100%;}
+		/* .popupZone_roll .slick-arrow{position:absolute; left:50%; top:50%; border:none; background:none; color:#fff;}
+				.popupZone_roll .slick-prev{left:-10px;}
+				.popupZone_roll .slick-next{left:auto; right:-10px;}
+		.popupZone_in .poptxt{color:#fff;} */
+
+    .popupZone_roll .slick-arrow{position:absolute; left:1%; top:50%; margin-top:-26.5px; border:none;width:30px; height:53px; text-indent:-99999px; background:url('assets/arrow.png') no-repeat center; cursor:pointer; z-index:900;}
+
+    .popupZone_roll .slick-next{left:auto; right:1%; transform:rotate(180deg);}
+
+    .popupZone_in .poptxt{color:#fff; text-align:left; margin:10px 0 0; letter-spacing:-0.35pt; font-size:13px;}
+
+    .popupZone_in .poptxt input[type="checkbox"]{display:inline-block; vertical-align:middle; width:15px; height:15px; margin:0 3px 2px 0}
+
+    .popupZone_in .poptxt span{cursor:pointer; border:1px solid #fff; font-size:12px; border-radius:50px; font-size:12px; padding:4px 10px; float:right; }
+
+	/* Start-�����⺻ */
+	.slick-slider{position: relative;display: block;box-sizing: border-box;
+			-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;-webkit-touch-callout: none;-khtml-user-select: none;-ms-touch-action: pan-y;
+				touch-action: pan-y;-webkit-tap-highlight-color: transparent;}
+	.slick-track{z-index:0;}
+	.slick-list{position: relative;display: block;overflow: hidden;margin:0;padding: 0; }
+	.slick-slide{display: none;float: left; }
+	.slick-initialized .slick-slide{display: block;}
+	/* End-�����⺻ */
+
+	</style>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>	<!-- �⺻ �������� -->
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> <!-- ���� -->
+	<script language="Javascript" type="text/javascript">
+
+	 function setCookie( name, value, expirehours ) {
+	  var todayDate = new Date();
+	  todayDate.setHours( todayDate.getHours() + expirehours );
+	  document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";"
+	 }
+	 function popupClose() {
+	  if(document.getElementById("pop_today").checked){
+	   setCookie( "ncookie", "done" , 24 );
+	  }
+    window.close()
+
+	  // document.getElementById('popupZone').style.display = "none";
+	 }
+	</script>
+
+ </head>
+
+ <body>
+
+  <!-- <div id="header">Head</div> -->
+  <!-- <div id="content">Contents</div> -->
+  <!-- <div id="footer">Footer</div> -->
+
+
+<div id="popupZone" class="popupZone">
+	<div class="popupZone_in">
+		<div class="popupZone_roll">
+			<div class="roll"><img src="banners/2023/Jeon1.png" alt="" /></div>
+			<div class="roll"><img src="banners/2023/Jeon2.png" alt="" /></div>
+		</div>
+		<p class="poptxt">
+			<input type="checkbox" name="pop_today" id="pop_today"><label for="pop_today">오늘 하루 보지 않음.</label>
+			<span class="" onClick="popupClose();">닫기</span>
+		</p>
+	</div>
+</div>
+
+<!-- <script language="Javascript" type="text/javascript">
+ cookiedata = document.cookie;
+ if (cookiedata.indexOf("ncookie=done") < 0){
+  document.getElementById('popupZone').style.display = "inline";
+ } else {
+  document.getElementById('popupZone').style.display = "none";
+ }
+</script> -->
+
+<script language="javascript">
+// �˾��Ѹ�
+$(document).on('ready', function() {
+	$(".popupZone_roll").slick({
+		dots: false,
+		arrows: true,
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+
+		autoplay: true,
+		vertical: false,
+		autoplaySpeed:4000,
+		pauseOnFocus:false,
+		pauseOnHover:false,
+		adaptiveHeight: true,
+		speed: 900,
+	});
+});
+</script>
+
+ </body>
+</html>
