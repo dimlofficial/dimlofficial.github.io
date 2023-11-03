@@ -28,7 +28,7 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
-- text: Junyoung Park (Ph.D. Student)'s paper has been accepted in 
+- text: Junyoung Park (M.S. Student)'s paper has been accepted in 
   conf: WACV
   date: Oct. 2024
   _title: "Layer-wise Auto-Weighting for Non-Stationary Test-Time Adaptation"
