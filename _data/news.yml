@@ -30,11 +30,19 @@
 # </script>
 - text: Junyoung Park (M.S. Student)'s paper has been accepted in 
   conf: WACV
-  date: Oct. 2024
+  date: Oct. 2023
   _title: "Layer-wise Auto-Weighting for Non-Stationary Test-Time Adaptation"
   _authors: J. Park, J. Kim, H. Kwon, I. Yoon, K. Sohn
   _conf_full: IEEE/CVF Winter Conference on Applications of Computer Vision
   _conf_date: January. 2024
+
+- text: Wonil Song (Ph.D. Student)'s paper has been accepted in 
+  conf: ESWA
+  date: Aug. 2023
+  _title: "Learning disentangled skills for hierarchical reinforcement learning through trajectory autoencoder with weak labels,"
+  _authors: W. Song, S. Jeon, H. Choi, K. Sohn, and D. Min
+  _conf_full: Expert Systems with Applications
+  _conf_date: Early Access
 
 - text: Yeji Choi (Ph.D. Student)'s paper has been accepted in 
   conf: ICIP
@@ -64,12 +72,12 @@
   _conf_full: IEEE International Conference on Computer Vision
   _conf_date: October. 2023
   
-- text: Wonil Song (Ph.D. Student)'s paper has been accepted in 
-  conf: ESWA
+- text: Sunok Kim (Ph.D.)'s paper has been accepted in 
+  conf: TPAMI
   date: May. 2023
-  _title: "Learning disentangled skills for hierarchical reinforcement learning through trajectory autoencoder with weak labels,"
-  _authors: W. Song, S. Jeon, H. Choi, K. Sohn, and D. Min
-  _conf_full: Expert Systems with Applications
+  _title: "Stereo Confidence Estimation via Locally Adaptive Fusion and Knowledge Distillation,"
+  _authors: S. Kim, S. Kim, D. Min, P. Frossard and K. Sohn 
+  _conf_full: IEEE Trans. on Pattern Analysis and Machine Intelligence
   _conf_date: Early Access
   
 - text: Hyeongjun Kwon (M.S. Student)'s paper has been accepted in 
@@ -111,6 +119,14 @@
   _authors: H. Lee, W. Song, K. Sohn, and D. Min.
   _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
   _conf_date: June. 2023
+
+- text: Hunsang Lee (Ph.D.)'s paper has been accepted in 
+  conf: Access
+  date: Feb. 2023
+  _title: "Cross-scale KNN Image Transformer for Image Restoration,"
+  _authors: H. Lee, H. Choi, K. Sohn and D. Min.
+  _conf_full: IEEE Access
+  _conf_date: Early access
 
 - text: Minsu Kim (Ph.D. Student)'s paper has been accepted in 
   conf: GRSL
