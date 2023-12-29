@@ -28,11 +28,19 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
+- text: Byungnam Kim (Ph.D. Student)'s paper has been accepted in 
+  conf: ICEIC
+  date: Nov. 2023
+  _title: "DANet: Dilated Deformable Attention Network for Dynamic Scene Deblurring"
+  _authors: B. Kim, H. Jung and K. Sohn
+  _conf_full: International Conference on Electronics, Information, and Communication
+  _conf_date: January. 2024
+
 - text: Junyoung Park (M.S. Student)'s paper has been accepted in 
   conf: WACV
   date: Oct. 2023
   _title: "Layer-wise Auto-Weighting for Non-Stationary Test-Time Adaptation"
-  _authors: J. Park, J. Kim, H. Kwon, I. Yoon, K. Sohn
+  _authors: J. Park, J. Kim, H. Kwon, I. Yoon and K. Sohn
   _conf_full: IEEE/CVF Winter Conference on Applications of Computer Vision
   _conf_date: January. 2024
 
@@ -48,7 +56,7 @@
   conf: ICIP
   date: Aug. 2023
   _title: "Face Photo-sketch Synthesis via Domain-invariant Feature Embedding"
-  _authors: Y. Choi, K. Sohn, I. Kim
+  _authors: Y. Choi, K. Sohn and I. Kim
   _conf_full: IEEE International Conference on Image Processing
   _conf_date: October. 2023
 
@@ -60,7 +68,7 @@
   conf: ICCV
   date: July. 2023
   _title: "Knowing Where to Focus: Event-aware Transformer for Video Grounding"
-  _authors: J. Jang, J. Park, J. Kim, H. Kwon, K. Sohn
+  _authors: J. Jang, J. Park, J. Kim, H. Kwon and K. Sohn
   _conf_full: IEEE International Conference on Computer Vision
   _conf_date: October. 2023
   
@@ -68,7 +76,7 @@
   conf: ICCV
   date: July. 2023
   _title: "Contextual, Discriminative, and Unbiased Compositional Zero-Shot Learning"
-  _authors: H. Kim, J. Lee, S. Park, K. Sohn
+  _authors: H. Kim, J. Lee, S. Park and K. Sohn
   _conf_full: IEEE International Conference on Computer Vision
   _conf_date: October. 2023
   
