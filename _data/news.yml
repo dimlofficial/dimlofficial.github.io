@@ -28,13 +28,13 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
-- text: Jungin Park (Ph.D. Student)'s paper has been accepted in 
-  conf: ICLR
-  date: Jan. 2024
-  _title: "Bridging Vision and Language Spaces with Assignment Prediction,"
-  _authors: J. Lee, and K. Sohn.
-  _conf_full: Proc. International Conference on Learning Representations
-  _conf_date: May. 2024
+# - text: Jungin Park (Ph.D. Student)'s paper has been accepted in 
+#   conf: ICLR
+#   date: Jan. 2024
+#   _title: "Bridging Vision and Language Spaces with Assignment Prediction,"
+#   _authors: J. Lee, and K. Sohn.
+#   _conf_full: Proc. International Conference on Learning Representations
+#   _conf_date: May. 2024
   
 - text: Byungnam Kim (Ph.D. Student)'s paper has been accepted in 
   conf: ICEIC
