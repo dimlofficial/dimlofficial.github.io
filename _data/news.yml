@@ -28,6 +28,22 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
+- text: Hyeongjun Kwon (Ph.D. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Feb. 2024
+  _title: "Improving Visual Recognition via Visual-Semantic Hierarchy Mapping,"
+  _authors: J. Jang, J. Kim, K. Kim, and K. Sohn.
+  _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  _conf_date: June. 2024
+  
+- text: Jihyun Kim (Ph.D. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: Feb. 2024
+  _title: "Diffusion-driven GAN Inversion for Multi-Modal Facial Image Generation,"
+  _authors: C. Oh, H. Do, S. Kim and K. Sohn.
+  _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  _conf_date: June. 2024
+
 - text: Jungin Park (Ph.D. Student)'s paper has been accepted in 
   conf: ICLR
   date: Jan. 2024
