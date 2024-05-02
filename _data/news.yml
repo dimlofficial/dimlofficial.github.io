@@ -32,7 +32,7 @@
   conf: CVPR
   date: Feb. 2024
   _title: "Improving Visual Recognition via Visual-Semantic Hierarchy Mapping,"
-  _authors: J. Jang, J. Kim, K. Kim, and K. Sohn.
+  _authors: H. Kwon, J. Jang, J. Kim, K. Kim, and K. Sohn.
   _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
   _conf_date: June. 2024
   
@@ -40,7 +40,7 @@
   conf: CVPR
   date: Feb. 2024
   _title: "Diffusion-driven GAN Inversion for Multi-Modal Facial Image Generation,"
-  _authors: C. Oh, H. Do, S. Kim and K. Sohn.
+  _authors: J. Kim, C. Oh, H. Do, S. Kim and K. Sohn.
   _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
   _conf_date: June. 2024
 
@@ -48,7 +48,7 @@
   conf: ICLR
   date: Jan. 2024
   _title: "Bridging Vision and Language Spaces with Assignment Prediction,"
-  _authors: J. Lee, and K. Sohn.
+  _authors: J. Park, J. Lee, and K. Sohn.
   _conf_full: Proc. International Conference on Learning Representations
   _conf_date: May. 2024
   
