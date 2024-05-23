@@ -159,7 +159,15 @@
   _authors: H. Lee, H. Choi, K. Sohn and D. Min.
   _conf_full: IEEE Access
   _conf_date: Early access
-
+  
+- text: Keunheun Choi (Ph.D. Student)'s paper has been accepted in 
+  conf: GRSL
+  date: Nov. 2022
+  _title: "Deep Cascade Network for Noise-Robust SAR Ship Detection With Label Augmentation,"
+  _authors: K. Choi, T. Song, S. Kim, H. Jang, N. Ha, and K. Sohn.
+  _conf_full: IEEE Geoscience and Remote Sensing Letters
+  _conf_date: Early access
+  
 - text: Minsu Kim (Ph.D. Student)'s paper has been accepted in 
   conf: GRSL
   date: Nov. 2022
