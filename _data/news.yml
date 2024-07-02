@@ -28,6 +28,23 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
+
+- text: Ilhoon Yoon (M.S. Student)'s paper has been accepted in 
+  conf: ECCV
+  date: July. 2024
+  _title: "Enhancing Source-Free Object Detection with Low-Confidence Pseudo-Label Distillation,"
+  _authors: I. Yoon, H. Kwon, J. Kim, J. Park, and K. Sohn.
+  _conf_full: European Conference on Computer Vision
+  _conf_date: Sep. 2024
+
+- text: EungBean Lee (Ph.D. Student)'s paper has been accepted in 
+  conf: ECCV
+  date: July. 2024
+  _title: "EBDM: Exemplar-guided Image Translation with Brownian-bridge Diffusion Models,"
+  _authors: E. Lee, S. Jeong, and K. Sohn.
+  _conf_full: European Conference on Computer Vision
+  _conf_date: Sep. 2024
+  
 - text: Hyeongjun Kwon (Ph.D. Student)'s paper has been accepted in 
   conf: CVPR
   date: Feb. 2024
