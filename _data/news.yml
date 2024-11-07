@@ -28,7 +28,22 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
-
+- text: Hanjae Kim  (Ph.D. Student)'s paper has been accepted in 
+  conf: TPAMI
+  date: Sept. 2024
+  _title: "Prototype-guided Attention Distillation for Discriminative Person Search"
+  _authors: H. Kim, J. Lee and K. Sohn
+  _conf_full: IEEE Transaction on Pattern Analysis and machine Intelligence.  
+  _conf_date: Sept. 2024
+  
+- text: Wonil Song (Ph.D.)'s paper has been accepted in 
+  conf: NeurIPS
+  date: Sept. 2024
+  _title: "A Simple Framework for Generalization in Visual RL under Dynamic Scene Perturbations,"
+  _authors: W. Song, H. Choi, K. Sohnm and D. Min.
+  _conf_full: Neural Information Processing Systems
+  _conf_date: Dec. 2024
+  
 - text: Ilhoon Yoon (M.S. Student)'s paper has been accepted in 
   conf: ECCV
   date: July. 2024
