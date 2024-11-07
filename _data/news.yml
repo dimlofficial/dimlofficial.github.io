@@ -28,6 +28,14 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
+- text: Keunhoon Choi  (Ph.D. Student)'s paper has been accepted in 
+  conf: ICCE-Asia
+  date: Nov. 2024
+  _title: "Enhancing Training Speed and Stability through Symmetry in Diffusion Models"
+  _authors: K. Choi, S. Kim and K. Sohn
+  _conf_full: International Conference On Consumer Electronics  
+  _conf_date: Nov. 2024
+  
 - text: Hanjae Kim  (Ph.D. Student)'s paper has been accepted in 
   conf: TPAMI
   date: Sept. 2024
