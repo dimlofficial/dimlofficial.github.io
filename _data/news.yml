@@ -28,6 +28,30 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
+- text: Kwonyoung Kim  (Ph.D. Student)'s paper has been accepted in 
+  conf: CVPR
+  date: FEB. 2025
+  _title: "Faster Parameter-Efficient Tuning with Token Redundancy Reduction"
+  _authors: K. Kim, J. Park, J. Kim, H. Kwon and K. Sohn
+  _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  _conf_date: JUNE. 2025
+  
+- text: Minsu Kim  (Ph.D.)'s paper has been accepted in 
+  conf: CVPR
+  date: FEB. 2025
+  _title: "Mixture of Submodule for Domain Adaptive Person Search"
+  _authors: M. Kim, S. Kim and K. Sohn
+  _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  _conf_date: JUNE. 2025
+  
+- text: Jungin Park  (Ph.D.)'s paper has been accepted in 
+  conf: CVPR
+  date: FEB. 2025
+  _title: "Bootstrap Your Own Views: Masked Ego-Exo Modeling for Fine-grained View-invariant Video Representations"
+  _authors: J. Park, J. Lee and K. Sohn
+  _conf_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  _conf_date: JUNE. 2025
+  
 - text: Keunhoon Choi  (Ph.D. Student)'s paper has been accepted in 
   conf: ICCE-Asia
   date: Nov. 2024
