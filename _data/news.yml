@@ -28,6 +28,14 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
+- text: Jin Kim  (Ph.D. Student)'s paper has been accepted in 
+  conf: GRSL
+  date: Apr. 2025
+  _title: "Source-Free Domain Adaptation for Remote-Sensing Object Detection Using Low-confidence Pseudo Labels"
+  _authors: J. Kim, J. Park, H. Jang, N. Ha, and Kwanghoon Sohn
+  _conf_full: IEEE Geoscience and Remote Sensing Letters
+  _conf_date: Apr. 2025
+  
 - text: Kwonyoung Kim  (Ph.D. Student)'s paper has been accepted in 
   conf: CVPR
   date: FEB. 2025
