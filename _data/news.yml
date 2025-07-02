@@ -28,6 +28,14 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
+- text: Jihyun Kim (Ph.D. Student)'s paper has been accepted in 
+  conf: ESWA
+  date: Jun. 2025
+  _title: "3D Semantic Image Synthesis with Geometric and Semantic Consistency,"
+  _authors: J. Kim, C. Oh, H. Do, S. Choi and K. Sohn
+  _conf_full: Expert Systems with Applications
+  _conf_date: Jun. 2025
+  
 - text: Jin Kim  (Ph.D. Student)'s paper has been accepted in 
   conf: GRSL
   date: Apr. 2025
