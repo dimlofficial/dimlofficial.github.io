@@ -72,13 +72,13 @@
   conf: <a href="https://myr.ewha.ac.kr/deptai/index.do" target="_blank">Ewha Womans University</a>
   date: Feb. 2025
   
-- text: Keunhoon Choi  (Ph.D. Student)'s paper has been accepted in 
-  conf: ICCE-Asia
-  date: Nov. 2024
-  _title: "Enhancing Training Speed and Stability through Symmetry in Diffusion Models"
-  _authors: K. Choi, S. Kim and K. Sohn
-  _conf_full: International Conference On Consumer Electronics  
-  _conf_date: Nov. 2024
+# - text: Keunhoon Choi  (Ph.D. Student)'s paper has been accepted in 
+#   conf: ICCE-Asia
+#   date: Nov. 2024
+#   _title: "Enhancing Training Speed and Stability through Symmetry in Diffusion Models"
+#   _authors: K. Choi, S. Kim and K. Sohn
+#   _conf_full: International Conference On Consumer Electronics  
+#   _conf_date: Nov. 2024
   
 - text: Hanjae Kim  (Ph.D. Student)'s paper has been accepted in 
   conf: TPAMI
@@ -382,13 +382,13 @@
   _conf_full: Conference on Causal Learning and Reasoning
   _conf_date: April 2022
 
-- text: Byungnam Kim (Ph.D. Student)'s paper has been accepted in 
-  conf: ICCE
-  date: Nov. 2021
-  _title: "Multi-Exposure Image Fusion Using Cross-Attention Mechanism"
-  _authors: B. Kim, H. Jung and K. Sohn
-  _conf_full: IEEE 40th International Conference on Consumer Electronics
-  _conf_date: January. 2022
+# - text: Byungnam Kim (Ph.D. Student)'s paper has been accepted in 
+#   conf: ICCE
+#   date: Nov. 2021
+#   _title: "Multi-Exposure Image Fusion Using Cross-Attention Mechanism"
+#   _authors: B. Kim, H. Jung and K. Sohn
+#   _conf_full: IEEE 40th International Conference on Consumer Electronics
+#   _conf_date: January. 2022
 
 - text: Jaehoon Cho (Ph.D.)'s paper has been accepted in 
   conf: BMVC
