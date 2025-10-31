@@ -28,6 +28,15 @@
 #     $( "#accordion" ).accordion();
 #   } );
 # </script>
+
+- text: Jungin Park (Ph.D)'s paper has been accepted in 
+  conf: IJCV
+  date: Aug. 2025
+  _title: "Language-Guided Recursive Spatiotemporal Graph Modeling for Video Summarization,"
+  _authors: J. Park, J. Lee, and K. Sohn
+  _conf_full: International Journal of Computer Vision
+  _conf_date: Aug. 2025
+
 - text: Jihyun Kim (Ph.D. Student)'s paper has been accepted in 
   conf: ESWA
   date: Jun. 2025
