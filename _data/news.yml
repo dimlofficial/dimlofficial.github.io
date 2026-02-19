@@ -37,6 +37,13 @@
   _conf_full: IEEE International Conference on Acoustics, Speech, and Signal Processing
   _conf_date: May. 2026
 
+- text: Keunheun Choi (Ph.D)'s paper has been accepted in 
+  conf: PR
+  date: Jan. 2026
+  _title: "Diffusion model-based data augmentation for land cover segmentation in Pol-SAR imagery,"
+  _authors: C. Choi, S. Kim, and K. Sohn
+  _conf_full: Pattern Recognition
+  _conf_date: Aug. 2026
 
 - text: Jungin Park (Ph.D)'s paper has been accepted in 
   conf: IJCV
