@@ -37,7 +37,7 @@
   _conf_full: International Conference on Machine Learning
   _conf_date: July. 2026
 
-  - text: Jungin Park (Ph.D)'s paper has been accepted in 
+- text: Jungin Park (Ph.D)'s paper has been accepted in 
   conf: ICML
   date: May. 2026
   _title: "LynX: Token Interface Alignment for Video+X LLMs,"
