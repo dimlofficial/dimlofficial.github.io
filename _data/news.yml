@@ -29,6 +29,22 @@
 #   } );
 # </script>
 
+- text: Jungin Park (Ph.D)'s paper has been accepted in 
+  conf: ICML
+  date: May. 2026
+  _title: "Saliency-Aware Model Merging,"
+  _authors: J. Park, J. Lee, and K. Sohn
+  _conf_full: International Conference on Machine Learning
+  _conf_date: July. 2026
+
+  - text: Jungin Park (Ph.D)'s paper has been accepted in 
+  conf: ICML
+  date: May. 2026
+  _title: "LynX: Token Interface Alignment for Video+X LLMs,"
+  _authors: J. Park, J. Lee, and K. Sohn
+  _conf_full: International Conference on Machine Learning
+  _conf_date: July. 2026
+
 - text: Jinbae Seo (M.S. Student)'s paper has been accepted in 
   conf: ICASSP
   date: Jan. 2026
