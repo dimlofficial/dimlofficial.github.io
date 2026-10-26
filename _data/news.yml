@@ -29,6 +29,15 @@
 #   } );
 # </script>
 
+
+- text: Jungin Park (Ph.D)'s paper has been accepted in 
+  conf: NeurIPS
+  date: Oct. 2026
+  _title: "Spatial Representation Distillation and Knowledge Routing for Vision-Language-Action Models,"
+  _authors: J. Park, C. Zhu, C. Oh, and K. Sohn
+  _conf_full: International Conference on Machine Learning
+  _conf_date: Dec. 2026
+
 - text: Jungin Park (Ph.D)'s paper has been accepted in 
   conf: ICML
   date: May. 2026
